@@ -1,3 +1,4 @@
+5555555555
 software para manejo de inventarios y facturacion
 en tiendas de ropa y calzado
 
@@ -7,8 +8,7 @@ _____________________________________________
 TABLA DE EQUIVALENCIAS
 _____________________________________________
 
-usuario 1111111111111111111111
-administrador de comercio        = ad 
+usuario administrador de comercio        = ad 
 
 usuario almacenista                      = al
 
