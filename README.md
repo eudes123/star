@@ -1,17 +1,21 @@
-5555555555
 software para manejo de inventarios y facturacion
 en tiendas de ropa y calzado
 
 _____________________________________________
 _____________________________________________
 
-TABLA DE EQUIVALENCIAS
+TABLA DE EQUIVALENCIAS PARA SCRIPTS
 _____________________________________________
 
-usuario administrador de comercio        = ad 
+usuario
+general = aa
+administrador de comercio = ad 
 
-usuario almacenista                      = al
 
-usuario cajero                           = ca
+usuario almacenista = al
 
-usuario vendedor                         = ve
+
+usuario cajero = ca
+
+
+usuario vendedor = ve
