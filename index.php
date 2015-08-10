@@ -1,13 +1,13 @@
 <?php include ('aahhhh_head.php'); ?>
 
 
-    <div class="container-fluid" style="margin-top:5%;">
+    <div class="container-fluid" style="margin-top:4%;">
         <div class="col-xs-1 col-sm-2 col-md-4">
             <br>  
         </div>
 
         <div class="col-xs-10 col-sm-8 col-md-4 " style="color:#585858;">
-            <div><br><img src="img/logo50.jpg" style="width:98%;"></div><br><br><br><br>
+            <div><br><img src="img/logo50.jpg" style="width:98%;"></div><br><br><br>
             <div class="ingresar">        
                 <form method="POST" action="login.php" clas="">
                           <div class="form-group">
@@ -15,7 +15,7 @@
                           <div class="form-group">
                               <div class="input-group">
                                   <input class="form-control" type="text" placeholder="usuario">
-                                  <span class="input-group-addon"><img src="img/user5.jpg" style="width:20px;"></span>
+                                  <span class="input-group-addon"><img src="img/user5.png" style="width:20px;"></span>
                               </div>
                           </div><br><br>
                           <div class="form-group">
