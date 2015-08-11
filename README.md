@@ -1,4 +1,3 @@
-5555555555
 software para manejo de inventarios y facturacion
 en tiendas de ropa y calzado
 
