@@ -1,54 +1,90 @@
-<!DOCTYPE HTML> 
-<html> 
-<head><meta http-equiv="Content-Type" content="text/html; charset=gb18030">
-<link rel="stylesheet" href="styles/sign-in.css">
-<title> signing | STAR E.R.P</title> 
-</head> 
+<?php include ('aahihh_head.php'); ?>
 
 
-<body id="body-color"> 
+    <div class="container-fluid">
+        <div class="col-xs-12 col-sm-4 col-md-4" style="border:solid 1px #585858;">
+            <ul>
+
+                <li>Sucursales
+                    <ul>
+                        <li>Sucursal Bogot&aacute; Chapinero
+                            <ul>
+                                <li><a href="#">Ventas</a></li>
+                                <li><a href="#">Inventario</a></li>
+                            </ul>
+                        </li>
+                        <li>Sucursal Bogot&aacute; Ch&iacute;a
+                            <ul>
+                                <li><a href="#">Ventas</a></li>
+                                <li><a href="#">Inventario</a></li>
+                            </ul>
+                        </li>
+                        <li>Sucursal Cartagena Boca Grande
+                            <ul>
+                                <li><a href="#">Ventas</a></li>
+                                <li><a href="#">Inventario</a></li>
+                            </ul>
+                        </li>
+                        <li>Sucursal Barranquilla Centro
+                            <ul>
+                                <li><a href="#">Ventas</a></li>
+                                <li><a href="#">Inventario</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Agregar nueva sucursal</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#">Total Ventas</a></li>
+
+                <li><a href="#">Total Inventario</a></li>
+
+                <li><a href="#">Clientes</a></li>
+
+                <li>Legal y tributario
+                    <ul>
+                        <li><a href="#">Res. DIAN</a></li>
+                    </ul>
+                </li>
+
+                <li>Imagen Corporativa
+                    <ul>
+                        <li><a href="#">Nombre Comercial</a></li>
+                        <li><a href="#">Razon Social</a></li>
+                        <li><a href="#">NIT</a></li>
+                        <li><a href="#">Regimen</a></li>
+                        <li><a href="#">Logo</a></li>
+                    </ul>
+                </li>
+
+                <li>STAR E.R.P
+                    <ul>
+                        <li><a href="#">usuarios contratados</a></li>
+                        <li>facturacion
+                            <ul>
+                                <li><a href="">facturas actuales</a></li>
+                                <li><a href="">Historial de transacciones</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+        </ul>
+        </div>
+
+        <div class="col-xs-12 col-sm-8 col-md-8" style="border:solid 1px #585858;">
+            <br>  <p>El contenido de este div va cambiando de acuerdo al boton seleccionado en el menu de &aacute;rbol</p>
+        </div>
+    </div>
 
 
 
-     <div id="Sign-In" style="margin:0 auto; width:352px; margin-top:10px; color:#585858;"> 
-
-     <fieldset>
-
-     <legend style="color:#585858;">DATOS PARA INGRESAR</legend> 
-           <form method="POST" action="connectivity.php" style="text-align:left;"> 
-               <br/>Usuario <br/>
-               <input type="text" name="user" size="40">
-               <br/><br/> Contrase&ntilde;a <br/>
-               <input type="password" name="pass" size="40">
-               <br><br/><br/>
-               <input id="button" type="submit" name="submit" value="Ingresar">
-               <br/>
-           </form>  
-   </fieldset>
 
 
 
 
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
-
-     <section style="margin-left:1px;">
-     <br/><br/><br/>
-<!--
-     <a href="#"><u>Olvide mi contrase&ntilde;a</u></a>
--->    
-     <br/><br/><br/><br/>
-     </section>
-
-     <section style="margin-left:160px;">
-        <a href="nuevae_nuevaEmpresa.php" target="_blank" style="text-decoration:none;"><u style="color:#0404B4; ">que es &nbsp; <b>STAR &nbsp;E.R.P</b></u><br/>
-     <i style="text-align:left; color:#B40404;">y como Registrarse?</i></a>
-     </section>
-     
-     </div> 
-
- 
-</body> 
-</html> 
-
-
-
+</body>
+</html>
