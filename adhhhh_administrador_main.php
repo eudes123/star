@@ -1,90 +1,154 @@
 <?php include ('aahihh_head.php'); ?>
 
-
     <div class="container-fluid">
-        <div class="col-xs-12 col-sm-4 col-md-4" style="border:solid 1px #585858;">
-            <ul>
+    <div class="row">    
+        <?php include ('adhghh_navegador.php'); ?>
 
-                <li>Sucursales
-                    <ul>
-                        <li>Sucursal Bogot&aacute; Chapinero
-                            <ul>
-                                <li><a href="#">Ventas</a></li>
-                                <li><a href="#">Inventario</a></li>
-                            </ul>
-                        </li>
-                        <li>Sucursal Bogot&aacute; Ch&iacute;a
-                            <ul>
-                                <li><a href="#">Ventas</a></li>
-                                <li><a href="#">Inventario</a></li>
-                            </ul>
-                        </li>
-                        <li>Sucursal Cartagena Boca Grande
-                            <ul>
-                                <li><a href="#">Ventas</a></li>
-                                <li><a href="#">Inventario</a></li>
-                            </ul>
-                        </li>
-                        <li>Sucursal Barranquilla Centro
-                            <ul>
-                                <li><a href="#">Ventas</a></li>
-                                <li><a href="#">Inventario</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Agregar nueva sucursal</a></li>
+        <div class="col-xs-12 col-sm-8 col-md-8" style="border:solid 1px #585858; background-color:#E0EDFA;">
+   
+            <br><br>
+            <nav class="navbar navbar-default">
+              <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Establecer rango de la consulta</a></li>
                     </ul>
-                </li>
+                            <form action="" method="GET" class="navbar-form navbar-right" role="search">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="C&oacute;digo factura" id="query" name="query" value="">
+                                        <div class="input-group-btn">
+                                    <button type="submit" class="btn btn-success"><span class="glyphicon glyphicon-search"></span></button>
+                                    </div>
+                                </div>
+                            </form>
 
-                <li><a href="#">Total Ventas</a></li>
+                </div><!-- navbar-collapse -->
+              </div><!-- container-fluid -->
+            </nav>
 
-                <li><a href="#">Total Inventario</a></li>
-
-                <li><a href="#">Clientes</a></li>
-
-                <li>Legal y tributario
-                    <ul>
-                        <li><a href="#">Res. DIAN</a></li>
-                    </ul>
-                </li>
-
-                <li>Imagen Corporativa
-                    <ul>
-                        <li><a href="#">Nombre Comercial</a></li>
-                        <li><a href="#">Razon Social</a></li>
-                        <li><a href="#">NIT</a></li>
-                        <li><a href="#">Regimen</a></li>
-                        <li><a href="#">Logo</a></li>
-                    </ul>
-                </li>
-
-                <li>STAR E.R.P
-                    <ul>
-                        <li><a href="#">usuarios contratados</a></li>
-                        <li>facturacion
-                            <ul>
-                                <li><a href="">facturas actuales</a></li>
-                                <li><a href="">Historial de transacciones</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-
-        </ul>
-        </div>
-
-        <div class="col-xs-12 col-sm-8 col-md-8" style="border:solid 1px #585858;">
-            <br>  <p>El contenido de este div va cambiando de acuerdo al boton seleccionado en el menu de &aacute;rbol</p>
-        </div>
+                <br>
+                <table width=100% border='1' class="tabla_ventas">
+                    <tr>
+                        <td><b>Factura</b></td>
+                        <td><b>Valor</b></td>
+                        <td><b>Cliente</b></td>
+                        <td><b>Fecha</b></td>
+                        <td><b>07:39 pm</b></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">65452</a></td>
+                        <td>102.000</td>
+                        <td>Maria Minaj Casianni</td>
+                        <td>Hoy</td>
+                        <td>06:18 pm</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">65452</a></td>
+                        <td>102.000</td>
+                        <td>Maria Minaj Casianni</td>
+                        <td>Hoy</td>
+                        <td>04:16 pm</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">65452</a></td>
+                        <td>102.000</td>
+                        <td>Maria Minaj Casianni</td>
+                        <td>Hoy</td>
+                        <td>01:43 pm</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">65452</a></td>
+                        <td>102.000</td>
+                        <td>Maria Minaj Casianni</td>
+                        <td>Hoy</td>
+                        <td>11:24 am</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">65452</a></td>
+                        <td>102.000</td>
+                        <td>Maria Minaj Casianni</td>
+                        <td>Hoy</td>
+                        <td>09:49 am</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">65452</a></td>
+                        <td>102.000</td>
+                        <td>Maria Minaj Casianni</td>
+                        <td>ayer</td>
+                        <td>06:59 pm</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">65452</a></td>
+                        <td>102.000</td>
+                        <td>Maria Minaj Casianni</td>
+                        <td>ayer</td>
+                        <td>06:45 pm</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">65452</a></td>
+                        <td>102.000</td>
+                        <td>Maria Minaj Casianni</td>
+                        <td>ayer</td>
+                        <td>05:33 pm</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">65452</a></td>
+                        <td>102.000</td>
+                        <td>Maria Minaj Casianni</td>
+                        <td>ayer</td>
+                        <td>11:56 am</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">65452</a></td>
+                        <td>102.000</td>
+                        <td>Maria Minaj Casianni</td>
+                        <td>ayer</td>
+                        <td>10:11 am</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">65452</a></td>
+                        <td>102.000</td>
+                        <td>Maria Minaj Casianni</td>
+                        <td>ayer</td>
+                        <td>08:23 am</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">65452</a></td>
+                        <td>102.000</td>
+                        <td>Maria Minaj Casianni</td>
+                        <td>12-ago-2015</td>
+                        <td>07:57 pm</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">65452</a></td>
+                        <td>102.000</td>
+                        <td>Maria Minaj Casianni</td>
+                        <td>12-ago-2015</td>
+                        <td>06:01 pm</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">65452</a></td>
+                        <td>102.000</td>
+                        <td>Maria Minaj Casianni</td>
+                        <td>12-ago-2015</td>
+                        <td>05:27 pm</td>
+                    </tr>
+                
+                </table>
+                <div style="height:22px; float:none; clear:both;"></div>
+            </div>
+    </div>    
     </div>
 
-
-
-
-
-
-
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-
-</body>
-</html>
+<?php include ('aayyhh_footer.php'); ?>
