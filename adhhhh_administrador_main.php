@@ -54,7 +54,7 @@
                     <tr>
                         <td><a href="#">65451</a></td>
                         <td>102.000</td>
-                        <td>Adalberto Julio Gomez maury</td>
+                        <td>Julio Gomez Maury</td>
                         <td>Hoy</td>
                         <td>04:16 pm</td>
                     </tr>

@@ -9,24 +9,24 @@
                             <ul>
                                 <li><a href="#">Ventas</a></li>
                                 <li><a href="#">Inventario</a></li>
-                            </ul>
-                        </li>
-                        <li>Sucursal Bogot&aacute; Ch&iacute;a
-                            <ul>
-                                <li><a href="#">Ventas</a></li>
-                                <li><a href="#">Inventario</a></li>
+                                <li><a href="#">Articulos Mas Vendidos</a></li>
+                                <li><a href="#">Articulos Menos vendidos</a></li>
                             </ul>
                         </li>
                         <li>Sucursal Cartagena Boca Grande
                             <ul>
                                 <li><a href="#">Ventas</a></li>
                                 <li><a href="#">Inventario</a></li>
-                            </ul>
+                                <li><a href="#">Articulos Mas Vendidos</a></li>
+                                <li><a href="#">Articulos Menos vendidos</a></li>
+                                </ul>
                         </li>
                         <li>Sucursal Barranquilla Centro
                             <ul>
                                 <li><a href="#">Ventas</a></li>
                                 <li><a href="#">Inventario</a></li>
+                                <li><a href="#">Articulos Mas Vendidos</a></li>
+                                <li><a href="#">Articulos Menos vendidos</a></li>
                             </ul>
                         </li>
                         <li><a href="#">Agregar nueva sucursal</a></li>
@@ -44,7 +44,6 @@
                 <li>Inventario
                     <ul>
                         <li><a href="#">Total Inventario</a></li>
-                        <li><a href="#">Articulos que se vencer&aacute;n prox. 30 dias</a></li>
                     </ul>
                 </li>
 
