@@ -4,10 +4,10 @@
     <div class="row">    
         <?php include ('adhghh_navegador.php'); ?>
 
-        <div class="col-xs-12 col-sm-8 col-md-8" style="border:solid 1px #585858; background-color:#E0EDFA;">
+        <div class="col-xs-12 col-sm-8 col-md-8 fondo-azul">
    
             <br><br>
-            
+            <nav class="navbar navbar-default">
               <div class="container-fluid">
                 
                 <div class="navbar-header">
@@ -19,145 +19,116 @@
                   </button>
                 </div>
                 
-               
-
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                    </ul>
                             <form action="" method="GET" class="navbar-form navbar-right" role="search">
                                 <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="C&oacute;digo Articulo" id="query" name="query" value="">
+                                    <input type="text" class="form-control" placeholder="Número de identificación" id="query" name="query" value="">
                                         <div class="input-group-btn">
                                     <button type="submit" class="btn btn-success"><span class="glyphicon glyphicon-search"></span></button>
                                     </div>
                                 </div>
                             </form>
-            
+                </div>
               </div>
-           
+            </nav>
 
                 <br>
                 <table width=100% border='1' class="tabla_ventas">
                     <tr>
-                        <td><b>Articulo</b></td>
-                        <td><b>Valor</b></td>
-                        <td><b>Familia</b></td>
-                        <td><b>Descripci&oacute;n</b></td>
-                        <td><b>Ingreso</b></td>
-                        <td><b>Vencimiento</b></td>
+                        <td><b>Identificación</b></td>
+                        <td><b>Nombre cliente</b></td>
+                        <td><b>Apellidos cliente</b></td>
+                        <td><b>País</b></td>
+                        <td><b>Ciudad</b></td>
+                        <td><b>Dirección</b></td>
+                        <td><b>Teléfono</b></td>
+                        <td><b>E-mail</b></td>
                     </tr>
                     <tr>
-                        <td><a href="#">65452453934</a></td>
-                        <td>102.000</td>
-                        <td>Camisas Hombre</td>
-                        <td>Camisa Rose Pistol Manga corta</td>
-                        <td>Hoy</td>
-                        <td>N/A</td>
+                        <td>21.584.654</td>
+                        <td>Maria</td>
+                        <td>Minaj Casianni</td>
+                        <td>Colombia</td>
+                        <td>Cartagena de Indias</td>
+                        <td>Zaragocilla Cll 30 No. 49 - 66</td>
+                        <td>6640106</td>
+                        <td>contactoctg@crocs.com</td>
                     </tr>
                     <tr>
-                        <td><a href="#">65452453933</a></td>
-                        <td>102.000</td>
-                        <td>Camisas Hombre</td>
-                        <td>Camisa Rose Pistol Manga corta</td>
-                        <td>Hoy</td>
-                        <td>N/A</td>
+                        <td>21.584.654</td>
+                        <td>Maria</td>
+                        <td>Minaj Casianni</td>
+                        <td>Colombia</td>
+                        <td>Cartagena de Indias</td>
+                        <td>Zaragocilla Cll 30 No. 49 - 66</td>
+                        <td>6640106</td>
+                        <td>contactoctg@crocs.com</td>
                     </tr>
                     <tr>
-                        <td><a href="#">65452453932</a></td>
-                        <td>102.000</td>
-                        <td>Camisas Hombre</td>
-                        <td>Camisa Rose Pistol Manga corta</td>
-                        <td>Hoy</td>
-                        <td>N/A</td>
+                        <td>21.584.654</td>
+                        <td>Maria</td>
+                        <td>Minaj Casianni</td>
+                        <td>Colombia</td>
+                        <td>Cartagena de Indias</td>
+                        <td>Zaragocilla Cll 30 No. 49 - 66</td>
+                        <td>6640106</td>
+                        <td>contactoctg@crocs.com</td>
                     </tr>
                     <tr>
-                        <td><a href="#">65452453931</a></td>
-                        <td>102.000</td>
-                        <td>Camisas Hombre</td>
-                        <td>Camisa Rose Pistol Manga corta</td>
-                        <td>Hoy</td>
-                        <td>N/A</td>
+                        <td>21.584.654</td>
+                        <td>Maria</td>
+                        <td>Minaj Casianni</td>
+                        <td>Colombia</td>
+                        <td>Cartagena de Indias</td>
+                        <td>Zaragocilla Cll 30 No. 49 - 66</td>
+                        <td>6640106</td>
+                        <td>contactoctg@crocs.com</td>
                     </tr>
                     <tr>
-                        <td><a href="#">65452453930</a></td>
-                        <td>102.000</td>
-                        <td>Camisas Hombre</td>
-                        <td>Camisa Rose Pistol Manga corta</td>
-                        <td>Hoy</td>
-                        <td>N/A</td>
+                        <td>21.584.654</td>
+                        <td>Maria</td>
+                        <td>Minaj Casianni</td>
+                        <td>Colombia</td>
+                        <td>Cartagena de Indias</td>
+                        <td>Zaragocilla Cll 30 No. 49 - 66</td>
+                        <td>6640106</td>
+                        <td>contactoctg@crocs.com</td>
                     </tr>
                     <tr>
-                        <td><a href="#">65452453929</a></td>
-                        <td>108.000</td>
-                        <td>Camisas Hombre</td>
-                        <td>Camisa luxury third manga larga</td>
-                        <td>ayer</td>
-                        <td>N/A</td>
+                        <td>21.584.654</td>
+                        <td>Maria</td>
+                        <td>Minaj Casianni</td>
+                        <td>Colombia</td>
+                        <td>Cartagena de Indias</td>
+                        <td>Zaragocilla Cll 30 No. 49 - 66</td>
+                        <td>6640106</td>
+                        <td>contactoctg@crocs.com</td>
                     </tr>
                     <tr>
-                        <td><a href="#">65452453928</a></td>
-                        <td>108.000</td>
-                        <td>Camisas Hombre</td>
-                        <td>Camisa luxury third manga larga</td>
-                        <td>ayer</td>
-                        <td>N/A</td>
+                        <td>21.584.654</td>
+                        <td>Maria</td>
+                        <td>Minaj Casianni</td>
+                        <td>Colombia</td>
+                        <td>Cartagena de Indias</td>
+                        <td>Zaragocilla Cll 30 No. 49 - 66</td>
+                        <td>6640106</td>
+                        <td>contactoctg@crocs.com</td>
                     </tr>
-                    <tr>
-                        <td><a href="#">65452453927</a></td>
-                        <td>108.000</td>
-                        <td>Camisas Hombre</td>
-                        <td>Camisa luxury third manga larga</td>
-                        <td>ayer</td>
-                        <td>N/A</td>
-                    </tr>
-                    <tr>
-                        <td><a href="#">65452453926</a></td>
-                        <td>108.000</td>
-                        <td>Camisas Hombre</td>
-                        <td>Camisa luxury third manga larga</td>
-                        <td>ayer</td>
-                        <td>N/A</td>
-                    </tr>
-                    <tr>
-                        <td><a href="#">65452453925</a></td>
-                        <td>102.000</td>
-                        <td>Camisas Hombre</td>
-                        <td>Camisa luxury third manga larga</td>
-                        <td>ayer</td>
-                        <td>N/A</td>
-                    </tr>
-                    <tr>
-                        <td><a href="#">65452453924</a></td>
-                        <td>108.000</td>
-                        <td>Camisas Hombre</td>
-                        <td>Camisa luxury third manga larga</td>
-                        <td>ayer</td>
-                        <td>N/A</td>
-                    </tr>
-                    <tr>
-                        <td><a href="#">65452453923</a></td>
-                        <td>89.000</td>
-                        <td>Jeans Hombre</td>
-                        <td>Denim vintage spring-summer</td>
-                        <td>12-ago-2015</td>
-                        <td>N/A</td>
-                    </tr>
-                    <tr>
-                        <td><a href="#">65452453922</a></td>
-                        <td>89.000</td>
-                        <td>Jeans Hombre</td>
-                        <td>Denim vintage spring-summer</td>
-                        <td>12-ago-2015</td>
-                        <td>N/A</td>
-                    </tr>
-                    <tr>
-                        <td><a href="#">65452453921</a></td>
-                        <td>89.000</td>
-                        <td>Jeans Hombre</td>
-                        <td>Denim vintage spring-summer</td>
-                        <td>12-ago-2015</td>
-                        <td>N/A</td>
-                    </tr>
-                
+
+                    <!--
+                        <td>Juan Carlos Gomez Ortiz</td>
+                        <td>Fabio Pitton Fory</td>
+                        <td>Margarita Rosa Colmenares</td>
+                        <td>Shaia Beltran Martinez</td>
+                        <td>Zenaida Quiñones Acevedo</td>
+                        <td>Milena Ortiz Maza</td>
+                        <td>Maria Alejandra Agamez</td>
+                    -->    
+            
                 </table>
-                <div style="height:44px; float:none; clear:both;"></div>
+                <div style="height:35px; float:none; clear:both;"></div>
             </div>
     </div>    
     </div>

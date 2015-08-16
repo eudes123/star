@@ -4,7 +4,7 @@
     <div class="row">    
         <?php include ('adhghh_navegador.php'); ?>
 
-        <div class="col-xs-12 col-sm-8 col-md-8" style="border:solid 1px #585858; background-color:#E0EDFA;">
+        <div class="col-xs-12 col-sm-8 col-md-8 fondo-azul">
 
                 <br>
                 <div class="row">

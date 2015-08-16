@@ -4,7 +4,7 @@
     <div class="row">    
         <?php include ('adhghh_navegador.php'); ?>
 
-        <div class="col-xs-12 col-sm-8 col-md-8" style="border:solid 1px #585858; background-color:#E0EDFA;">
+        <div class="col-xs-12 col-sm-8 col-md-8 fondo-azul">
    
             <br><br>
             <nav class="navbar navbar-default">
@@ -142,9 +142,15 @@
                         <td>12-ago-2015</td>
                         <td>05:27 pm</td>
                     </tr>
-                
+                    <tr>
+                        <td><a href="#">65438</a></td>
+                        <td>102.000</td>
+                        <td>Maria Alejandra Agamez</td>
+                        <td>12-ago-2015</td>
+                        <td>05:07 pm</td>
+                    </tr>        
                 </table>
-                <div style="height:22px; float:none; clear:both;"></div>
+                <div style="height:35px; float:none; clear:both;"></div>
             </div>
     </div>    
     </div>
