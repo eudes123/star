@@ -24,7 +24,7 @@
                                   <span class="input-group-addon"><img src="img/key7.png" style="width:20px;"></span>
                               </div>
                           </div><br><br>
-                          <button class="btn btn-info" ><a href="http://localhost/star/aazzhh_4_interfaces_temp.php">Fake ingreso</a></button>
+                          <button class="btn btn-info" ><a href="aazzhh_4_interfaces_temp.php">Fake ingreso</a></button>
                           <br><br>
                           <input class="btn btn-default" type="submit" name="submit" value="Ingresar">
                           </div>

@@ -17,7 +17,7 @@
                         <td><b>Valor</b></td>
                     </tr>
                     <tr>
-                        <td><a href="#">Agosto - 2015</a></td>
+                        <td><a href="adlnkh_star_erp_facturacion_facturas_pendientes.php">Agosto - 2015</a></td>
                         <td>13</td>
                         <td>260.000</td>
                     </tr>
@@ -32,27 +32,27 @@
                         <td><b>Valor</b></td>
                     </tr>
                     <tr>
-                        <td><a href="#">Agosto - 2015</a></td>
+                        <td><a href="adlnkh_star_erp_facturacion_facturas_pendientes.php">Agosto - 2015</a></td>
                         <td>13</td>
                         <td>260.000</td>
                     </tr>
                     <tr>
-                        <td><a href="#">Julio - 2015</a></td>
+                        <td><a href="adlnkh_star_erp_facturacion_facturas_pendientes.php">Julio - 2015</a></td>
                         <td>13</td>
                         <td>260.000</td>
                     </tr>
                     <tr>
-                        <td><a href="#">Julio - 2015</a></td>
+                        <td><a href="adlnkh_star_erp_facturacion_facturas_pendientes.php">Julio - 2015</a></td>
                         <td>7</td>
                         <td>140.000</td>
                     </tr>
                     <tr>
-                        <td><a href="#">Junio - 2015</a></td>
+                        <td><a href="adlnkh_star_erp_facturacion_facturas_pendientes.php">Junio - 2015</a></td>
                         <td>11</td>
                         <td>220.000</td>
                     </tr>
                     <tr>
-                        <td><a href="#">Mayo - 2015</a></td>
+                        <td><a href="adlnkh_star_erp_facturacion_facturas_pendientes.php">Mayo - 2015</a></td>
                         <td>11</td>
                         <td>220.000</td>
                     </tr>
