@@ -7,7 +7,7 @@
         <div class="col-xs-12 col-sm-8 col-md-8 fondo-azul">
    
             <br><br>
-            <nav class="navbar navbar-default">
+            
               <div class="container-fluid">
                 
                 <div class="navbar-header">
@@ -19,138 +19,145 @@
                   </button>
                 </div>
                 
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav">
-                        <li><a href="#">Establecer rango de la consulta</a></li>
-                    </ul>
+               
+
                             <form action="" method="GET" class="navbar-form navbar-right" role="search">
                                 <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="C&oacute;digo factura" id="query" name="query" value="">
+                                    <input type="text" class="form-control" placeholder="C&oacute;digo Articulo" id="query" name="query" value="">
                                         <div class="input-group-btn">
                                     <button type="submit" class="btn btn-success"><span class="glyphicon glyphicon-search"></span></button>
                                     </div>
                                 </div>
                             </form>
-                </div>
+            
               </div>
-            </nav>
+           
 
                 <br>
                 <table width=100% border='1' class="tabla_ventas">
                     <tr>
-                        <td><b>Factura</b></td>
+                        <td><b>Articulo</b></td>
                         <td><b>Valor</b></td>
-                        <td><b>Cliente</b></td>
-                        <td><b>Fecha</b></td>
-                        <td><b>Hora</b></td>
+                        <td><b>Familia</b></td>
+                        <td><b>Descripci&oacute;n</b></td>
+                        <td><b>Ingreso</b></td>
+                        <td><b>Vencimiento</b></td>
                     </tr>
                     <tr>
-                        <td><a href="#">65452</a></td>
+                        <td><a href="#">65452453934</a></td>
                         <td>102.000</td>
-                        <td>Maria Minaj Casianni</td>
+                        <td>Camisas Hombre</td>
+                        <td>Camisa Rose Pistol Manga corta</td>
                         <td>Hoy</td>
-                        <td>06:18 pm</td>
+                        <td>N/A</td>
                     </tr>
                     <tr>
-                        <td><a href="#">65451</a></td>
+                        <td><a href="#">65452453933</a></td>
                         <td>102.000</td>
-                        <td>Julio Gomez Maury</td>
+                        <td>Camisas Hombre</td>
+                        <td>Camisa Rose Pistol Manga corta</td>
                         <td>Hoy</td>
-                        <td>04:16 pm</td>
+                        <td>N/A</td>
                     </tr>
                     <tr>
-                        <td><a href="#">65450</a></td>
+                        <td><a href="#">65452453932</a></td>
                         <td>102.000</td>
-                        <td>David Luis Caceres</td>
+                        <td>Camisas Hombre</td>
+                        <td>Camisa Rose Pistol Manga corta</td>
                         <td>Hoy</td>
-                        <td>01:43 pm</td>
+                        <td>N/A</td>
                     </tr>
                     <tr>
-                        <td><a href="#">65449</a></td>
+                        <td><a href="#">65452453931</a></td>
                         <td>102.000</td>
-                        <td>Emilio Barraza Moreno</td>
+                        <td>Camisas Hombre</td>
+                        <td>Camisa Rose Pistol Manga corta</td>
                         <td>Hoy</td>
-                        <td>11:24 am</td>
+                        <td>N/A</td>
                     </tr>
                     <tr>
-                        <td><a href="#">65448</a></td>
+                        <td><a href="#">65452453930</a></td>
                         <td>102.000</td>
-                        <td>Juan Felipe Amaury D&iacute;az</td>
+                        <td>Camisas Hombre</td>
+                        <td>Camisa Rose Pistol Manga corta</td>
                         <td>Hoy</td>
-                        <td>09:49 am</td>
+                        <td>N/A</td>
                     </tr>
                     <tr>
-                        <td><a href="#">65447</a></td>
-                        <td>102.000</td>
-                        <td>Emily Mendez Maury</td>
-                        <td>Ayer</td>
-                        <td>06:59 pm</td>
+                        <td><a href="#">65452453929</a></td>
+                        <td>108.000</td>
+                        <td>Camisas Hombre</td>
+                        <td>Camisa luxury third manga larga</td>
+                        <td>ayer</td>
+                        <td>N/A</td>
                     </tr>
                     <tr>
-                        <td><a href="#">65446</a></td>
-                        <td>102.000</td>
-                        <td>Mabel Castillo Paternina</td>
-                        <td>Ayer</td>
-                        <td>06:45 pm</td>
+                        <td><a href="#">65452453928</a></td>
+                        <td>108.000</td>
+                        <td>Camisas Hombre</td>
+                        <td>Camisa luxury third manga larga</td>
+                        <td>ayer</td>
+                        <td>N/A</td>
                     </tr>
                     <tr>
-                        <td><a href="#">65445</a></td>
-                        <td>102.000</td>
-                        <td>Jose Luis Borge</td>
-                        <td>Ayer</td>
-                        <td>05:33 pm</td>
+                        <td><a href="#">65452453927</a></td>
+                        <td>108.000</td>
+                        <td>Camisas Hombre</td>
+                        <td>Camisa luxury third manga larga</td>
+                        <td>ayer</td>
+                        <td>N/A</td>
                     </tr>
                     <tr>
-                        <td><a href="#">65444</a></td>
-                        <td>102.000</td>
-                        <td>Juan Carlos Gomez Ortiz</td>
-                        <td>Ayer</td>
-                        <td>11:56 am</td>
+                        <td><a href="#">65452453926</a></td>
+                        <td>108.000</td>
+                        <td>Camisas Hombre</td>
+                        <td>Camisa luxury third manga larga</td>
+                        <td>ayer</td>
+                        <td>N/A</td>
                     </tr>
                     <tr>
-                        <td><a href="#">65443</a></td>
+                        <td><a href="#">65452453925</a></td>
                         <td>102.000</td>
-                        <td>Fabio Pitton Fory</td>
-                        <td>Ayer</td>
-                        <td>10:11 am</td>
+                        <td>Camisas Hombre</td>
+                        <td>Camisa luxury third manga larga</td>
+                        <td>ayer</td>
+                        <td>N/A</td>
                     </tr>
                     <tr>
-                        <td><a href="#">65442</a></td>
-                        <td>102.000</td>
-                        <td>Margarita Rosa Colmenares</td>
-                        <td>Ayer</td>
-                        <td>08:23 am</td>
+                        <td><a href="#">65452453924</a></td>
+                        <td>108.000</td>
+                        <td>Camisas Hombre</td>
+                        <td>Camisa luxury third manga larga</td>
+                        <td>ayer</td>
+                        <td>N/A</td>
                     </tr>
                     <tr>
-                        <td><a href="#">65441</a></td>
-                        <td>102.000</td>
-                        <td>Shaia Beltran Martinez</td>
+                        <td><a href="#">65452453923</a></td>
+                        <td>89.000</td>
+                        <td>Jeans Hombre</td>
+                        <td>Denim vintage spring-summer</td>
                         <td>12-ago-2015</td>
-                        <td>07:57 pm</td>
+                        <td>N/A</td>
                     </tr>
                     <tr>
-                        <td><a href="#">65440</a></td>
-                        <td>102.000</td>
-                        <td>Zenaida Quiñones Acevedo</td>
+                        <td><a href="#">65452453922</a></td>
+                        <td>89.000</td>
+                        <td>Jeans Hombre</td>
+                        <td>Denim vintage spring-summer</td>
                         <td>12-ago-2015</td>
-                        <td>06:01 pm</td>
+                        <td>N/A</td>
                     </tr>
                     <tr>
-                        <td><a href="#">65439</a></td>
-                        <td>102.000</td>
-                        <td>Milena Ortiz Maza</td>
+                        <td><a href="#">65452453921</a></td>
+                        <td>89.000</td>
+                        <td>Jeans Hombre</td>
+                        <td>Denim vintage spring-summer</td>
                         <td>12-ago-2015</td>
-                        <td>05:27 pm</td>
+                        <td>N/A</td>
                     </tr>
-                    <tr>
-                        <td><a href="#">65438</a></td>
-                        <td>102.000</td>
-                        <td>Maria Alejandra Agamez</td>
-                        <td>12-ago-2015</td>
-                        <td>05:07 pm</td>
-                    </tr>        
+                
                 </table>
-                <div style="height:35px; float:none; clear:both;"></div>
+                <div style="height:44px; float:none; clear:both;"></div>
             </div>
     </div>    
     </div>

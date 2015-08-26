@@ -9,73 +9,52 @@
               <div class="container-fluid">
 
 
-                <br><br>
-                <h3>Usuarios contratados:</h3>
+                <br><br><br><br>
                 <table width=100% border='1' class="tabla_ventas">
                     <tr>
-                        <td><b>Sucursal</b></td>
-                        <td><b>Tipo Usuario</b></td>
-                        <td><b>Cantidad</b></td>
+                        <td id="ordenar-por"><b>Sucursal</b></td>
+                        <td id="ordenar-por"><b>Tipo Usuario</b></td>
+                        <td id="ordenar-por"><b>Cantidad</b></td>
                     </tr>
                     <tr>
-                        <td>Bogotá Chapinero cll 25 No. 12-58</td>
+                        <td id="ordenar-por">Bogotá Chapinero cll 25 No. 12-58</td>
                         <td>Administrador</td>
                         <td>1</td>
                     </tr>
                     <tr>
-                        <td>Bogotá Chapinero cll 25 No. 12-58</td>
+                        <td id="ordenar-por">Bogotá Chapinero cll 25 No. 12-58</td>
                         <td>Almacenista</td>
                         <td>1</td>
                     </tr>
                     <tr>
-                        <td>Bogotá Chapinero cll 25 No. 12-58</td>
+                        <td id="ordenar-por">Bogotá Chapinero cll 25 No. 12-58</td>
                         <td>Cajero</td>
                         <td>2</td>
                     </tr>
                     <tr>
-                        <td>Bogotá Chapinero cll 25 No. 12-58</td>
+                        <td id="ordenar-por">Bogotá Chapinero cll 25 No. 12-58</td>
                         <td>Vendedor</td>
                         <td>1</td>
                     </tr>
                     <tr>
-                        <td>Cartagena Bocagrande cll 2 No. 34-52</td>
+                        <td id="ordenar-por">Cartagena Bocagrande cll 2 No. 34-52</td>
                         <td>Administrador</td>
                         <td>1</td>
                     </tr>
                     <tr>
-                        <td>Cartagena Bocagrande cll 2 No. 34-52</td>
+                        <td id="ordenar-por">Cartagena Bocagrande cll 2 No. 34-52</td>
                         <td>Almacenista</td>
                         <td>1</td>
                     </tr>
                     <tr>
-                        <td>Cartagena Bocagrande cll 2 No. 34-52</td>
+                        <td id="ordenar-por">Cartagena Bocagrande cll 2 No. 34-52</td>
                         <td>Cajero</td>
                         <td>1</td>
                     </tr>
                     <tr>
-                        <td>Cartagena Bocagrande cll 2 No. 34-52</td>
+                        <td id="ordenar-por">Cartagena Bocagrande cll 2 No. 34-52</td>
                         <td>Vendedor</td>
                         <td>0</td>
-                    </tr>
-                    <tr>
-                        <td>Barranquilla Centro cll 13 No. 22-86</td>
-                        <td>Administrador</td>
-                        <td>1</td>
-                    </tr>
-                    <tr>
-                        <td>Barranquilla Centro cll 13 No. 22-86</td>
-                        <td>Almacenista</td>
-                        <td>1</td>
-                    </tr>
-                    <tr>
-                        <td>Barranquilla Centro cll 13 No. 22-86</td>
-                        <td>Cajero</td>
-                        <td>2</td>
-                    </tr>
-                    <tr>
-                        <td>Barranquilla Centro cll 13 No. 22-86</td>
-                        <td>Vendedor</td>
-                        <td>1</td>
                     </tr>
                 </table>
                 <br>
@@ -83,7 +62,7 @@
                 <table width=100% border='1' class="tabla_ventas">
                     <tr>
                         <td><b>Usuarios contratados:</b></td>
-                        <td><b>13 </b></td>
+                        <td><b>8 </b></td>
                     </tr>
                 </table>
 

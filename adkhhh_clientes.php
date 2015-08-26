@@ -37,18 +37,18 @@
                 <br>
                 <table width=100% border='1' class="tabla_ventas">
                     <tr>
-                        <td><b>Identificación</b></td>
-                        <td><b>Nombre cliente</b></td>
-                        <td><b>Apellidos cliente</b></td>
-                        <td><b>País</b></td>
-                        <td><b>Ciudad</b></td>
-                        <td><b>Dirección</b></td>
-                        <td><b>Teléfono</b></td>
-                        <td><b>E-mail</b></td>
+                        <td id="ordenar-por"><b>Identificación</b></td>
+                        <td id="ordenar-por"><b>Nombre cliente</b></td>
+                        <td id="ordenar-por"><b>Apellidos cliente</b></td>
+                        <td id="ordenar-por"><b>País</b></td>
+                        <td id="ordenar-por"><b>Ciudad</b></td>
+                        <td id="ordenar-por"><b>Dirección</b></td>
+                        <td id="ordenar-por"><b>Teléfono</b></td>
+                        <td id="ordenar-por"><b>E-mail</b></td>
                     </tr>
                     <tr>
                         <td>21.584.654</td>
-                        <td>Maria</td>
+                        <td id="ordenar-por">Alberto</td>
                         <td>Minaj Casianni</td>
                         <td>Colombia</td>
                         <td>Cartagena de Indias</td>
@@ -58,7 +58,7 @@
                     </tr>
                     <tr>
                         <td>21.584.654</td>
-                        <td>Maria</td>
+                        <td id="ordenar-por">Carlos</td>
                         <td>Minaj Casianni</td>
                         <td>Colombia</td>
                         <td>Cartagena de Indias</td>
@@ -68,7 +68,7 @@
                     </tr>
                     <tr>
                         <td>21.584.654</td>
-                        <td>Maria</td>
+                        <td id="ordenar-por">Diana</td>
                         <td>Minaj Casianni</td>
                         <td>Colombia</td>
                         <td>Cartagena de Indias</td>
@@ -78,7 +78,7 @@
                     </tr>
                     <tr>
                         <td>21.584.654</td>
-                        <td>Maria</td>
+                        <td id="ordenar-por">Eudes</td>
                         <td>Minaj Casianni</td>
                         <td>Colombia</td>
                         <td>Cartagena de Indias</td>
@@ -88,7 +88,7 @@
                     </tr>
                     <tr>
                         <td>21.584.654</td>
-                        <td>Maria</td>
+                        <td id="ordenar-por">Kiara</td>
                         <td>Minaj Casianni</td>
                         <td>Colombia</td>
                         <td>Cartagena de Indias</td>
@@ -98,7 +98,7 @@
                     </tr>
                     <tr>
                         <td>21.584.654</td>
-                        <td>Maria</td>
+                        <td id="ordenar-por">Maria</td>
                         <td>Minaj Casianni</td>
                         <td>Colombia</td>
                         <td>Cartagena de Indias</td>
@@ -108,7 +108,7 @@
                     </tr>
                     <tr>
                         <td>21.584.654</td>
-                        <td>Maria</td>
+                        <td id="ordenar-por">Pablo</td>
                         <td>Minaj Casianni</td>
                         <td>Colombia</td>
                         <td>Cartagena de Indias</td>
@@ -116,17 +116,6 @@
                         <td>6640106</td>
                         <td>contactoctg@crocs.com</td>
                     </tr>
-
-                    <!--
-                        <td>Juan Carlos Gomez Ortiz</td>
-                        <td>Fabio Pitton Fory</td>
-                        <td>Margarita Rosa Colmenares</td>
-                        <td>Shaia Beltran Martinez</td>
-                        <td>Zenaida Quiñones Acevedo</td>
-                        <td>Milena Ortiz Maza</td>
-                        <td>Maria Alejandra Agamez</td>
-                    -->    
-            
                 </table>
                 <div style="height:35px; float:none; clear:both;"></div>
             </div>

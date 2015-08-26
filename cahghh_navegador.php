@@ -3,7 +3,7 @@
             <ul>
                 <li>Ventas
                     <ul>
-                        <li><a href="cahhhh_administrador_main.php">Todas las ventas</a></li>
+                        <li><a href="cahhhh_cajero_main.php">Todas las ventas</a></li>
                         <li><a href="cahjhh_cajero_ventas_nueva_factura.php">Nueva Factura</a></li>
                     </ul>
                 </li>

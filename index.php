@@ -9,7 +9,7 @@
         <div class="col-xs-10 col-sm-8 col-md-4 " style="color:#585858;">
             <div><br><img src="img/logo50.jpg" style="width:98%;"></div><br><br><br>
             <div class="ingresar">        
-                <form method="POST" action="login.php" clas="">
+                <form method="GET" action="aazzhh_4_interfaces_temp.php" clas="">
                           <div class="form-group">
                           <br><br><br>
                           <div class="form-group">

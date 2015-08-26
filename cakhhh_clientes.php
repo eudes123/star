@@ -37,9 +37,9 @@
                 <br>
                 <table width=100% border='1' class="tabla_ventas">
                     <tr>
-                        <td><b>Identificación</b></td>
-                        <td><b>Nombre cliente</b></td>
-                        <td><b>Apellidos cliente</b></td>
+                        <td id="ordenar-por"><b>Identificación</b></td>
+                        <td id="ordenar-por"><b>Nombre cliente</b></td>
+                        <td id="ordenar-por"><b>Apellidos cliente</b></td>
                         <td><b>País</b></td>
                         <td><b>Ciudad</b></td>
                         <td><b>Dirección</b></td>
@@ -48,7 +48,7 @@
                     </tr>
                     <tr>
                         <td>21.584.654</td>
-                        <td>Maria</td>
+                        <td id="ordenar-por">Andres</td>
                         <td>Minaj Casianni</td>
                         <td>Colombia</td>
                         <td>Cartagena de Indias</td>
@@ -57,8 +57,8 @@
                         <td>contactoctg@crocs.com</td>
                     </tr>
                     <tr>
-                        <td>21.584.654</td>
-                        <td>Maria</td>
+                        <td>73.535.289</td>
+                        <td id="ordenar-por">Carlos</td>
                         <td>Minaj Casianni</td>
                         <td>Colombia</td>
                         <td>Cartagena de Indias</td>
@@ -67,8 +67,8 @@
                         <td>contactoctg@crocs.com</td>
                     </tr>
                     <tr>
-                        <td>21.584.654</td>
-                        <td>Maria</td>
+                        <td>79.368.187</td>
+                        <td id="ordenar-por">Juan David</td>
                         <td>Minaj Casianni</td>
                         <td>Colombia</td>
                         <td>Cartagena de Indias</td>
@@ -77,8 +77,8 @@
                         <td>contactoctg@crocs.com</td>
                     </tr>
                     <tr>
-                        <td>21.584.654</td>
-                        <td>Maria</td>
+                        <td>21.984.444</td>
+                        <td id="ordenar-por">Kelly Ana</td>
                         <td>Minaj Casianni</td>
                         <td>Colombia</td>
                         <td>Cartagena de Indias</td>
@@ -87,8 +87,8 @@
                         <td>contactoctg@crocs.com</td>
                     </tr>
                     <tr>
-                        <td>21.584.654</td>
-                        <td>Maria</td>
+                        <td>85.524.009</td>
+                        <td id="ordenar-por">Martha</td>
                         <td>Minaj Casianni</td>
                         <td>Colombia</td>
                         <td>Cartagena de Indias</td>
@@ -97,8 +97,8 @@
                         <td>contactoctg@crocs.com</td>
                     </tr>
                     <tr>
-                        <td>21.584.654</td>
-                        <td>Maria</td>
+                        <td>98.421.071</td>
+                        <td id="ordenar-por">Miriam</td>
                         <td>Minaj Casianni</td>
                         <td>Colombia</td>
                         <td>Cartagena de Indias</td>
@@ -107,8 +107,8 @@
                         <td>contactoctg@crocs.com</td>
                     </tr>
                     <tr>
-                        <td>21.584.654</td>
-                        <td>Maria</td>
+                        <td>73.567.108</td>
+                        <td id="ordenar-por">Yuli Andrea</td>
                         <td>Minaj Casianni</td>
                         <td>Colombia</td>
                         <td>Cartagena de Indias</td>
@@ -116,18 +116,9 @@
                         <td>6640106</td>
                         <td>contactoctg@crocs.com</td>
                     </tr>
-
-                    <!--
-                        <td>Juan Carlos Gomez Ortiz</td>
-                        <td>Fabio Pitton Fory</td>
-                        <td>Margarita Rosa Colmenares</td>
-                        <td>Shaia Beltran Martinez</td>
-                        <td>Zenaida Quiñones Acevedo</td>
-                        <td>Milena Ortiz Maza</td>
-                        <td>Maria Alejandra Agamez</td>
-                    -->    
-            
                 </table>
+                <br><br>
+                    <?php include('cahkhh_paginacion_cajero.php'); ?>
                 <div style="height:35px; float:none; clear:both;"></div>
             </div>
     </div>    

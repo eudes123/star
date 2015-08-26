@@ -13,7 +13,7 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12">   
                         <div class="col-xs-12 col-sm-12 col-md-12">
-                            <form class="form-inline" role="form" method="GET" action="adinhh_resultado_articulos_mas_vendidos.php">
+                            <form class="form-inline" role="form" method="GET" action="adhnhh_articulos_mas_vendidos_sucursales_resultado.php">
                             <div class="form-group">
                                 <label for="dd">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Consultar desde:</label>
                                 <input type="date" class="form-control" name="desde" id="dd">
@@ -32,10 +32,6 @@
                 </div>
 
             </div>    
-
-
-
-           
 
         <br>
         <div style="height:82px; float:none; clear:both;"></div>
