@@ -2,7 +2,7 @@
 
     <div class="container-fluid">
     <div class="row">    
-        <?php include ('cahghh_navegador.php'); ?>
+        <?php include ('gehghh_navegador.php'); ?>
 
         <div class="col-xs-12 col-sm-8 col-md-8">
             
@@ -13,7 +13,7 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12">   
                         <div class="col-xs-12 col-sm-12 col-md-12">
-                            <form class="form-inline" role="form" method="GET" action="cahijh_cajero_main_establecer_rango_consulta_resultado.php">
+                            <form class="form-inline" role="form" method="GET" action="geinhh_resultado_articulos_mas_vendidos.php">
                             <div class="form-group">
                                 <label for="dd">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Consultar desde:</label>
                                 <input type="date" class="form-control" name="desde" id="dd">
@@ -32,6 +32,10 @@
                 </div>
 
             </div>    
+
+
+
+           
 
         <br>
         <div style="height:82px; float:none; clear:both;"></div>

@@ -147,17 +147,9 @@
                         <td>12-ago-2015</td>
                         <td>N/A</td>
                     </tr>
-                    <tr>
-                        <td id="ordenar-por"><a href="#">65452453921</a></td>
-                        <td>89.000</td>
-                        <td>Jeans Hombre</td>
-                        <td>Denim vintage spring-summer</td>
-                        <td>12-ago-2015</td>
-                        <td>N/A</td>
-                    </tr>
                 
                 </table>
-                <div style="height:44px; float:none; clear:both;"></div>
+                <div style="height:30px; float:none; clear:both;"></div>
                     <?php include('cahkhh_paginacion_cajero.php'); ?>
                     <div style="height:35px; float:none; clear:both;"></div>
             </div>

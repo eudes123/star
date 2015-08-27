@@ -10,4 +10,4 @@
      <link rel="stylesheet" href="styles/styles.css" />
 </head>
 
-<body onload="bill.codPr.focus()">
+<body onload="bill.codPr.focus()" class="fondo-azul">

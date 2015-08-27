@@ -2,7 +2,7 @@
 
     <div class="container-fluid">
     <div class="row">    
-        <?php include ('alhghh_navegador.php'); ?>
+        <?php include ('gehghh_navegador.php'); ?>
 
         <div class="col-xs-12 col-sm-8 col-md-8">
    

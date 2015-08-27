@@ -2,40 +2,11 @@
 
     <div class="container-fluid">
     <div class="row">    
-        <?php include ('cahghh_navegador.php'); ?>
+        <?php include ('gehghh_navegador.php'); ?>
 
         <div class="col-xs-12 col-sm-8 col-md-8">
    
-            <br><br>
-            <nav class="navbar navbar-default">
-              <div class="container-fluid">
-                
-                <div class="navbar-header">
-                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                  </button>
-                </div>
-                
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav">
-                        <li><a href="cahihh_cajero_main_establecer_rango_consulta.php">Establecer rango de la consulta</a></li>
-                    </ul>
-                            <form action="" method="GET" class="navbar-form navbar-right" role="search">
-                                <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="C&oacute;digo factura" id="query" name="query" value="">
-                                        <div class="input-group-btn">
-                                    <button type="submit" class="btn btn-success"><span class="glyphicon glyphicon-search"></span></button>
-                                    </div>
-                                </div>
-                            </form>
-                </div>
-              </div>
-            </nav>
-
-                <br>
+            <br><br><br>
                 <table width=100% border='1' class="tabla_ventas">
                     <tr>
                         <td id="ordenar-por"><b>Factura</b></td>
@@ -64,6 +35,13 @@
                         <td>David Luis Caceres</td>
                         <td>Hoy</td>
                         <td>01:43 pm</td>
+                    </tr>
+                    <tr>
+                        <td id="ordenar-por"><a href="#">65449</a></td>
+                        <td>102.000</td>
+                        <td>Emilio Barraza Moreno</td>
+                        <td>Hoy</td>
+                        <td>11:24 am</td>
                     </tr>
                     <tr>
                         <td id="ordenar-por"><a href="#">65448</a></td>
@@ -127,9 +105,16 @@
                         <td>Zenaida Quiñones Acevedo</td>
                         <td>12-ago-2015</td>
                         <td>06:01 pm</td>
-                    </tr>       
+                    </tr>
+                    <tr>
+                        <td id="ordenar-por"><a href="#">65439</a></td>
+                        <td>102.000</td>
+                        <td>Milena Ortiz Maza</td>
+                        <td>12-ago-2015</td>
+                        <td>05:27 pm</td>
+                    </tr>     
                 </table>
-                <div style="height:35px; float:none; clear:both;"></div>
+                <div style="height:30px; float:none; clear:both;"></div>
                     <?php include('cahkhh_paginacion_cajero.php'); ?>
                     <div style="height:35px; float:none; clear:both;"></div>
             </div>

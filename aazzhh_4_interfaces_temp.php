@@ -5,7 +5,7 @@
 
         <div class="col-xs-12 col-sm-12 col-md-12 col-xs-offset-5 col-sm-offset-5 col-md-offset-5 ">
         <br><br><br><br>
-                <a href="adhhhh_administrador_main.php">Interfaz administrador</a>
+                <a href="gehhhh_gerente_main.php">Interfaz administrador</a>
                 <br><br>
                 <a href="cahhhh_cajero_main.php">Interfaz cajero</a>
                 <br><br>

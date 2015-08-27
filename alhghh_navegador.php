@@ -1,13 +1,39 @@
-
         <div class="col-xs-12 col-sm-4 col-md-4">
-            <br>
-            <ul>
-                <li>Inventario
-                    <ul>
-                        <li><a href="alhhhh_almacenista_main.php">Total Inventario</a></li>
-                        <li><a href="alhmhh_ingresar_mercancia.php">ingresar mercancia</a></li>
-                    </ul>
-                </li>
-            </ul>
-            <br>
+            <nav class="navbar navbar-default">
+              <div class="container-fluid" style="height:750px;">
+                
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                </div>
+                
+
+                <div style="height:30px;"></div><!-- solo para dar espacio -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><b>Inventario</b>
+                        <ul>
+                            <li><a href="alhhhh_almacenista_main.php">Total Inventario</a></li>
+                            <li><a href="alhmhh_ingresar_mercancia.php">ingresar mercancia</a></li>
+                        </ul>
+                    </li>
+
+                    <br>
+                    <li><b>Salida segura</b>
+                        <ul>
+                            <li><a href="index.php">Salir</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                
+        
+                </div>
+              </div>
+            </nav>
+
         </div>
+

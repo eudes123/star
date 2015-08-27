@@ -1,6 +1,6 @@
         <div class="col-xs-12 col-sm-4 col-md-4">
             <nav class="navbar navbar-default">
-              <div class="container-fluid">
+              <div class="container-fluid" style="height:750px;">
                 
                 <div class="navbar-header">
                   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -40,7 +40,7 @@
                 <br>
                 <li><b>VENTAS</b>
                     <ul>
-                        <li><a href="gehhhh_administrador_main.php">Todas las ventas</a></li>
+                        <li><a href="gehhhh_gerente_main.php">Todas las ventas</a></li>
                         <li><a href="geikhh_articulos_mas_vendidos.php">Articulos m&aacute;s vendidos</a></li>
                         <li><a href="geiphh_articulos_menos_vendidos.php">Articulos menos vendidos</a></li>
                     </ul>
@@ -79,13 +79,19 @@
                         <li><a href="gelnhh_star_erp_facturacion.php">Facturación</a></li>
                     </ul>
                 </li>
+
+                <br>
+                <li><b>Salida segura</b>
+                    <ul>
+                        <li><a href="index.php">Salir</a></li>
+                    </ul>
+                </li>
                 
 
                 </ul>
                 
         
                 </div>
-                <div style="height:20px;"></div><!-- solo para dar espacio en google crome-->
               </div>
             </nav>
 

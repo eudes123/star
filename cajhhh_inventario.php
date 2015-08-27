@@ -4,7 +4,7 @@
     <div class="row">    
         <?php include ('cahghh_navegador.php'); ?>
 
-        <div class="col-xs-12 col-sm-8 col-md-8 fondo-azul">
+        <div class="col-xs-12 col-sm-8 col-md-8">
    
             <br><br>
             
@@ -140,14 +140,6 @@
                         <td>N/A</td>
                     </tr>
                     <tr>
-                        <td id="ordenar-por"><a href="#">65452453922</a></td>
-                        <td>89.000</td>
-                        <td>Jeans Hombre</td>
-                        <td>Denim vintage spring-summer</td>
-                        <td>12-ago-2015</td>
-                        <td>N/A</td>
-                    </tr>
-                    <tr>
                         <td id="ordenar-por"><a href="#">65452453921</a></td>
                         <td>89.000</td>
                         <td>Jeans Hombre</td>
@@ -157,7 +149,7 @@
                     </tr>
                 
                 </table>
-                <div style="height:44px; float:none; clear:both;"></div>
+                <div style="height:30px; float:none; clear:both;"></div>
                     <?php include('cahkhh_paginacion_cajero.php'); ?>
                     <div style="height:35px; float:none; clear:both;"></div>
             </div>

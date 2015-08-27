@@ -15,4 +15,4 @@
 
 </head>
 
-<body>
+<body class="fondo-azul">
