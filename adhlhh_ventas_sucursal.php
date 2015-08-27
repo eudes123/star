@@ -21,7 +21,7 @@
                 
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li><a href="#">Establecer rango de la consulta</a></li>
+                        <li><a href="adhlkh_establecer_rango_consulta_sucursales.php">Establecer rango de la consulta</a></li>
                     </ul>
                           
                             <div style="height:5px;"></div> <!--unicamente para hacer espacio-->
@@ -146,6 +146,8 @@
                     </tr>
                 </table>
                 <div style="height:22px; float:none; clear:both;"></div>
+                    <?php include('cahkhh_paginacion_cajero.php'); ?>
+                    <div style="height:35px; float:none; clear:both;"></div>
             </div>
     </div>    
     </div>

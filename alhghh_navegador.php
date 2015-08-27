@@ -5,7 +5,7 @@
                 <li>Inventario
                     <ul>
                         <li><a href="alhhhh_almacenista_main.php">Total Inventario</a></li>
-                        <li><a href="alhhhh_ingresar_mercancia.php">ingresar mercancia</a></li>
+                        <li><a href="alhmhh_ingresar_mercancia.php">ingresar mercancia</a></li>
                     </ul>
                 </li>
             </ul>

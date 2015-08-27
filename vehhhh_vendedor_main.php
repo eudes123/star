@@ -36,15 +36,15 @@
                 <br>
                 <table width=100% border='1' class="tabla_ventas">
                     <tr>
-                        <td><b>Articulo</b></td>
-                        <td><b>Valor</b></td>
-                        <td><b>Familia</b></td>
-                        <td><b>Descripci&oacute;n</b></td>
-                        <td><b>Ingreso</b></td>
-                        <td><b>Vencimiento</b></td>
+                        <td id="ordenar-por"><b>Articulo</b></td>
+                        <td id="ordenar-por"><b>Valor</b></td>
+                        <td id="ordenar-por"><b>Familia</b></td>
+                        <td id="ordenar-por"><b>Descripci&oacute;n</b></td>
+                        <td id="ordenar-por"><b>Ingreso</b></td>
+                        <td id="ordenar-por"><b>Vencimiento</b></td>
                     </tr>
                     <tr>
-                        <td><a href="#">65452453934</a></td>
+                        <td id="ordenar-por"><a href="#">65452453934</a></td>
                         <td>102.000</td>
                         <td>Camisas Hombre</td>
                         <td>Camisa Rose Pistol Manga corta</td>
@@ -52,7 +52,7 @@
                         <td>N/A</td>
                     </tr>
                     <tr>
-                        <td><a href="#">65452453933</a></td>
+                        <td id="ordenar-por"><a href="#">65452453933</a></td>
                         <td>102.000</td>
                         <td>Camisas Hombre</td>
                         <td>Camisa Rose Pistol Manga corta</td>
@@ -60,7 +60,7 @@
                         <td>N/A</td>
                     </tr>
                     <tr>
-                        <td><a href="#">65452453932</a></td>
+                        <td id="ordenar-por"><a href="#">65452453932</a></td>
                         <td>102.000</td>
                         <td>Camisas Hombre</td>
                         <td>Camisa Rose Pistol Manga corta</td>
@@ -68,7 +68,7 @@
                         <td>N/A</td>
                     </tr>
                     <tr>
-                        <td><a href="#">65452453931</a></td>
+                        <td id="ordenar-por"><a href="#">65452453931</a></td>
                         <td>102.000</td>
                         <td>Camisas Hombre</td>
                         <td>Camisa Rose Pistol Manga corta</td>
@@ -76,7 +76,7 @@
                         <td>N/A</td>
                     </tr>
                     <tr>
-                        <td><a href="#">65452453930</a></td>
+                        <td id="ordenar-por"><a href="#">65452453930</a></td>
                         <td>102.000</td>
                         <td>Camisas Hombre</td>
                         <td>Camisa Rose Pistol Manga corta</td>
@@ -84,7 +84,7 @@
                         <td>N/A</td>
                     </tr>
                     <tr>
-                        <td><a href="#">65452453929</a></td>
+                        <td id="ordenar-por"><a href="#">65452453929</a></td>
                         <td>108.000</td>
                         <td>Camisas Hombre</td>
                         <td>Camisa luxury third manga larga</td>
@@ -92,7 +92,7 @@
                         <td>N/A</td>
                     </tr>
                     <tr>
-                        <td><a href="#">65452453928</a></td>
+                        <td id="ordenar-por"><a href="#">65452453928</a></td>
                         <td>108.000</td>
                         <td>Camisas Hombre</td>
                         <td>Camisa luxury third manga larga</td>
@@ -100,7 +100,7 @@
                         <td>N/A</td>
                     </tr>
                     <tr>
-                        <td><a href="#">65452453927</a></td>
+                        <td id="ordenar-por"><a href="#">65452453927</a></td>
                         <td>108.000</td>
                         <td>Camisas Hombre</td>
                         <td>Camisa luxury third manga larga</td>
@@ -108,7 +108,7 @@
                         <td>N/A</td>
                     </tr>
                     <tr>
-                        <td><a href="#">65452453926</a></td>
+                        <td id="ordenar-por"><a href="#">65452453926</a></td>
                         <td>108.000</td>
                         <td>Camisas Hombre</td>
                         <td>Camisa luxury third manga larga</td>
@@ -116,7 +116,7 @@
                         <td>N/A</td>
                     </tr>
                     <tr>
-                        <td><a href="#">65452453925</a></td>
+                        <td id="ordenar-por"><a href="#">65452453925</a></td>
                         <td>102.000</td>
                         <td>Camisas Hombre</td>
                         <td>Camisa luxury third manga larga</td>
@@ -124,7 +124,7 @@
                         <td>N/A</td>
                     </tr>
                     <tr>
-                        <td><a href="#">65452453924</a></td>
+                        <td id="ordenar-por"><a href="#">65452453924</a></td>
                         <td>108.000</td>
                         <td>Camisas Hombre</td>
                         <td>Camisa luxury third manga larga</td>
@@ -132,7 +132,7 @@
                         <td>N/A</td>
                     </tr>
                     <tr>
-                        <td><a href="#">65452453923</a></td>
+                        <td id="ordenar-por"><a href="#">65452453923</a></td>
                         <td>89.000</td>
                         <td>Jeans Hombre</td>
                         <td>Denim vintage spring-summer</td>
@@ -140,7 +140,7 @@
                         <td>N/A</td>
                     </tr>
                     <tr>
-                        <td><a href="#">65452453922</a></td>
+                        <td id="ordenar-por"><a href="#">65452453922</a></td>
                         <td>89.000</td>
                         <td>Jeans Hombre</td>
                         <td>Denim vintage spring-summer</td>
@@ -148,7 +148,7 @@
                         <td>N/A</td>
                     </tr>
                     <tr>
-                        <td><a href="#">65452453921</a></td>
+                        <td id="ordenar-por"><a href="#">65452453921</a></td>
                         <td>89.000</td>
                         <td>Jeans Hombre</td>
                         <td>Denim vintage spring-summer</td>
@@ -158,6 +158,8 @@
                 
                 </table>
                 <div style="height:44px; float:none; clear:both;"></div>
+                    <?php include('cahkhh_paginacion_cajero.php'); ?>
+                    <div style="height:35px; float:none; clear:both;"></div>
             </div>
     </div>    
     </div>

@@ -2,41 +2,11 @@
 
     <div class="container-fluid">
     <div class="row">    
-        <?php include ('adhghh_navegador.php'); ?>
+        <?php include ('cahghh_navegador.php'); ?>
 
         <div class="col-xs-12 col-sm-8 col-md-8 fondo-azul">
    
-            <br><br>
-            <nav class="navbar navbar-default">
-              <div class="container-fluid">
-                
-                <div class="navbar-header">
-                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                  </button>
-                </div>
-                
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav">
-                        <li><a href="adhhjh_administrador_main_establecer_rango_consulta.php">Establecer rango de la consulta</a></li>
-                    </ul>   
-                            <div style="height:10px;"></div><!-- solo para dar espacio en google crome-->
-                            <form action="" method="GET" class="navbar-form navbar-right" role="search">
-                                <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="C&oacute;digo factura" id="query" name="query" value="">
-                                        <div class="input-group-btn">
-                                    <button type="submit" class="btn btn-success"><span class="glyphicon glyphicon-search"></span></button>
-                                    </div>
-                                </div>
-                            </form>
-                </div>
-              </div>
-            </nav>
-
-                <br>
+            <br><br><br>
                 <table width=100% border='1' class="tabla_ventas">
                     <tr>
                         <td id="ordenar-por"><b>Factura</b></td>
@@ -151,7 +121,7 @@
                         <td>05:07 pm</td>
                     </tr>        
                 </table>
-                <div style="height:35px; float:none; clear:both;"></div>
+                <div style="height:75px; float:none; clear:both;"></div>
                     <?php include('cahkhh_paginacion_cajero.php'); ?>
                     <div style="height:35px; float:none; clear:both;"></div>
             </div>

@@ -158,6 +158,8 @@
                 
                 </table>
                 <div style="height:44px; float:none; clear:both;"></div>
+                    <?php include('cahkhh_paginacion_cajero.php'); ?>
+                    <div style="height:35px; float:none; clear:both;"></div>
             </div>
     </div>    
     </div>

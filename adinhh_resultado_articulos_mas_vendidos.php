@@ -109,6 +109,8 @@
                     </tr>
                 </table>
                 <div style="height:65px; float:none; clear:both;"></div>
+                    <?php include('cahkhh_paginacion_cajero.php'); ?>
+                    <div style="height:35px; float:none; clear:both;"></div>
             </div>
     </div>    
     </div>
