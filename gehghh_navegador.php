@@ -23,6 +23,7 @@
                                 <li><a href="gehmhh_inventario_sucursal.php">Inventario</a></li>
                                 <li><a href="gehnfh_articulos_mas_vendidos_sucursales.php">Articulos Mas Vendidos</a></li>
                                 <li><a href="gehnph_articulos_menos_vendidos_sucursales.php">Articulos Menos vendidos</a></li>
+                                <li><a href="gehsph_descuentos_sucursal.php">Descuentos sucursal</a></li>
                             </ul>
                         </li>
                         <li>Sucursal Cartagena Boca Grande
@@ -31,6 +32,7 @@
                                 <li><a href="gehmhh_inventario_sucursal.php">Inventario</a></li>
                                 <li><a href="gehnfh_articulos_mas_vendidos_sucursales.php">Articulos Mas Vendidos</a></li>
                                 <li><a href="gehnph_articulos_menos_vendidos_sucursales.php">Articulos Menos vendidos</a></li>
+                                <li><a href="gehsph_descuentos_sucursal.php">Descuentos sucursal</a></li>
                             </ul>
                         </li>
                         <li><a href="gehohh_agregar_nueva_sucursal.php"><b><i>Agregar nueva sucursal</i></b></a></li>
@@ -43,6 +45,7 @@
                         <li><a href="gehhhh_gerente_main.php">Todas las ventas</a></li>
                         <li><a href="geikhh_articulos_mas_vendidos.php">Articulos m&aacute;s vendidos</a></li>
                         <li><a href="geiphh_articulos_menos_vendidos.php">Articulos menos vendidos</a></li>
+                        <li><a href="gekhah_descuentos_global.php">Descuentos globales</a></li>
                     </ul>
                 </li>
                 <br>
@@ -54,7 +57,7 @@
                 <br>
                 <li><b>CLIENTES</b>
                     <ul>
-                        <li><a href="gekhhh_clientes.php">Todos los Clientes</a></li>
+                        <li><a href="gejjhh_clientes.php">Todos los Clientes</a></li>
                     </ul>
                 </li>
                 
@@ -75,13 +78,13 @@
                 <br>
                 <li><b>STAR E.R.P</b>
                     <ul>
-                        <li><a href="gellhh_star_erp_usuarios_contratados.php">Usuarios contratados</a></li>
-                        <li><a href="gelnhh_star_erp_facturacion.php">Facturación</a></li>
+                        <li><a href="gexlhh_star_erp_usuarios_contratados.php">Usuarios contratados</a></li>
+                        <li><a href="gexnhh_star_erp_facturacion.php">Facturación</a></li>
                     </ul>
                 </li>
 
                 <br>
-                <li><b>Salida segura</b>
+                <li><b>SALIDA SEGURA</b>
                     <ul>
                         <li><a href="index.php">Salir</a></li>
                     </ul>

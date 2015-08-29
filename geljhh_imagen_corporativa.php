@@ -27,7 +27,7 @@
                             <p><br><b>Nombre comercial: </b>Almacen Crocs <br></p>
                             </div>
                             <div class="col-xs-5 col-sm-5 col-md-5">
-                            <a href="#" style="text-decoration:underline;"><br>modificar</a>
+                            <a href="gelrhh_imagen_corporativa_nomb_comercial.php" style="text-decoration:underline;"><br>modificar</a>
                             </div>
                         </div>
                         <div class="row">    

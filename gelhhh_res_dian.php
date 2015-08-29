@@ -16,7 +16,7 @@
                             <p><br><b>Res. DIAN Número:</b> 6400000254<br></p>
                             </div>
                             <div class="col-xs-5 col-sm-5 col-md-5">
-                            <a href="#" style="text-decoration:underline;"><br>modificar</a>
+                            <a href="gelhhj_res_dian_numero.php" style="text-decoration:underline;"><br>modificar</a>
                             </div>
                         </div>
                         <div class="row">    
@@ -24,7 +24,7 @@
                             <p><br><b>del</b> 15 - Agosto - 2014<br></p>
                             </div>
                             <div class="col-xs-5 col-sm-5 col-md-5">
-                            <a href="#" style="text-decoration:underline;"><br>modificar</a>
+                            <a href="gelhho_res_dian_fecha.php" style="text-decoration:underline;"><br>modificar</a>
                             </div>
                         </div>
                         <div class="row">    
@@ -32,7 +32,7 @@
                             <p><br><b>Autoriza del</b> 0001 al 2.000<br></p>
                             </div>
                             <div class="col-xs-5 col-sm-5 col-md-5">
-                            <a href="#" style="text-decoration:underline;"><br>modificar</a>
+                            <a href="gelhhv_res_dian_consecutivo.php" style="text-decoration:underline;"><br>modificar</a>
                             </div>
                         </div>
                         <hr class="divider"/><br>
@@ -41,7 +41,7 @@
                             <img src="img/res_dian.jpg" width=100%>
                             <br>
                             <div style="text-align:right;">
-                            <a href="#" style="text-decoration:underline;"><br>modificar</a>
+                            <a href="gelhib_res_dian_file.php" style="text-decoration:underline;"><br>modificar</a>
                             </div>
                             <br><br><br>
                             </div>
