@@ -15,7 +15,7 @@
                         <div class="col-xs-12 col-sm-12 col-md-12">
                             <form class="form-inline" role="form" method="GET" action="gekhih_descuentos_global_precio_vista.php">
                             <div class="form-group col-xs-12 col-sm-6 col-md-6 col-sm-offset-1 col-md-offset-1">
-                                <label for="dd">Desde:</label>
+                                <label for="dd">Precio desde:</label>
                                 <input type="number" class="form-control" name="desde" id="dd">
                             </div>
                             <div class="form-group col-xs-12 col-sm-5 col-md-5">

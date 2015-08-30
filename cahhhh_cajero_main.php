@@ -6,7 +6,7 @@
 
         <div class="col-xs-12 col-sm-8 col-md-8">
    
-            <br><br>
+            <article style="height:10spx; float:none; clear:both;"></article> <!--solo para dar espacio -->
             <nav class="navbar navbar-default">
               <div class="container-fluid">
                 
@@ -20,17 +20,23 @@
                 </div>
                 
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <section class="col-xs-6 col-sm6 col-md-6">
                     <ul class="nav navbar-nav">
                         <li><a href="cahihh_cajero_main_establecer_rango_consulta.php">Establecer rango de la consulta</a></li>
                     </ul>
+                    </section>
+
+                    <section class="col-xs-6 col-sm6 col-md-6">
+                            <article style="height:12px; float:none; clear:both;"></article> <!--solo para dar espacio -->        
                             <form action="" method="GET" class="navbar-form navbar-right" role="search">
                                 <div class="input-group">
                                     <input type="text" class="form-control" placeholder="C&oacute;digo factura" id="query" name="query" value="">
                                         <div class="input-group-btn">
-                                    <button type="submit" class="btn btn-success"><span class="glyphicon glyphicon-search"></span></button>
+                                        <button type="submit" class="btn btn-success"><span class="glyphicon glyphicon-search"></span></button>
                                     </div>
                                 </div>
                             </form>
+                    </section>        
                 </div>
               </div>
             </nav>

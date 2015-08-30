@@ -19,12 +19,19 @@
                   </button>
                 </div>
                 
+
+
+
+
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <div class="col-xs-6 col-sm-6 col-md-6" >
+                    <article style="height:15px;"></article><!-- solo para dar espacio-->
                     <ul class="nav navbar-nav">
-                        <li><a href="gehlkh_establecer_rango_consulta_sucursales.php">Establecer rango de la consulta</a></li>
+                        <li style="padding:0; margin: 0; box-sizing: border-box; -o-box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;"><a style="padding:0; margin: 0; box-sizing: border-box; -o-box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;" href="gehlkh_establecer_rango_consulta_sucursales.php">Establecer rango de la consulta</a></li>
                     </ul>
+                </div>    
                           
-                            <div style="height:5px;"></div> <!--unicamente para hacer espacio-->
+                <div class="col-xs-6 col-sm-6 col-md-6">
                             <form action="" method="GET" class="navbar-form navbar-right" role="search">
                                 <div class="input-group">
                                     <input type="text" class="form-control" placeholder="C&oacute;digo factura" id="query" name="query" value="">
@@ -33,6 +40,10 @@
                                     </div>
                                 </div>
                             </form>
+                </div>
+                
+
+
                 </div>
               </div>
             </nav>

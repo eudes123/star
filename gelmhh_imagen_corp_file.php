@@ -19,9 +19,9 @@
 
 
                     <div class="col-xs-12 col-sm-12 col-md-12">
-                        <form class="form-inline" role="form" method="GET" action="gelhid_res_dian_file_exito.php" id="bill">
+                        <form class="form-inline" role="form" method="GET" action="gelnhh_imagen_corp_file_exito.php" id="bill">
                             <section class="col-xs-9 col-sm-9 col-md-9">
-                                <label class="input-group" for="dc">Imagen Res. DIAN <i>(formatos soportados JPEG - PNG - GIF):</i> </label>
+                                <label class="input-group" for="dc">Logo <i>(formatos soportados JPEG - PNG - GIF):</i> </label>
                                 <input type="file" class="input-group">
                             </section>
                             <section class="col-xs-3 col-sm-3 col-md-3">

@@ -6,7 +6,7 @@
 
         <div class="col-xs-12 col-sm-8 col-md-8">
    
-            <br><br>
+        
             
               <div class="container-fluid">
                 

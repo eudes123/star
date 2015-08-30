@@ -12,10 +12,10 @@
             <br><br><br><br><br>
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12">   
-                        <div class="col-xs-12 col-sm-10 col-md-9 col-sm-offset-1 col-md-offset-3">
-                            <form class="form-inline" role="form" method="GET" action="gelshh_imagen_corporativa_nomb_comercial_exito.php">
-                            <div class="form-group col-xs-12 col-sm-12 col-md-12" >
-                                <label for="dd">Nombre comercial: &nbsp;</label>
+                        <div class="col-xs-12 col-sm-10 col-md-9 col-sm-offset-1 col-md-offset-2">
+                            <form class="form-inline" role="form" method="GET" action="geluhh_imagen_corp_eslogan_exito.php">
+                            <div class="form-group col-xs-12 col-sm-12 col-md-12 col-sm-offset-1 col-md-offset-1" >
+                                <label for="dd">Eslogan: &nbsp;</label>
                                 <input type="number" class="form-control" name="desde" id="dd">
                             </div>
                             <br><br><br><br><br><br><br>

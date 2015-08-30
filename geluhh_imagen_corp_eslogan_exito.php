@@ -19,9 +19,9 @@
 
 
                     <div class="col-xs-12 col-sm-12 col-md-12">
-                        <form class="form-inline" role="form" method="GET" action="#" id="bill">
-                            <section class="col-xs-7 col-sm-7 col-md-7 col-sm-offset-1 col-md-offset-1">
-                                <h3>Logo modificado</h3> 
+                        <form class="form-inline" role="form" method="GET" action="gelshh_imagen_corporativa_nomb_comercial_exito.php" id="bill">
+                            <section class="col-xs-8 col-sm-8 col-md-8 col-sm-offset-1 col-md-offset-1">
+                                <h3>Eslogan modificado</h3> 
                             </section>
                             <section class="col-xs-2 col-sm-2 col-md-2">
                                 <img src="img/visto_bueno.png" width="90%">

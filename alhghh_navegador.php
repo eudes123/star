@@ -1,6 +1,8 @@
+
+        <article style="height:15px;"></article><!-- solo para dar espacio-->
         <div class="col-xs-12 col-sm-4 col-md-4">
             <nav class="navbar navbar-default">
-              <div class="container-fluid" style="height:750px;">
+              <div class="container-fluid">
                 
                 <div class="navbar-header">
                   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -11,10 +13,12 @@
                   </button>
                 </div>
                 
-
-                <div style="height:30px;"></div><!-- solo para dar espacio -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
+                        
+                <article style="height:8px;"></article><!-- solo para dar espacio-->
+                
+
                     <li><b>Inventario</b>
                         <ul>
                             <li><a href="alhhhh_almacenista_main.php">Total Inventario</a></li>
@@ -28,12 +32,16 @@
                             <li><a href="index.php">Salir</a></li>
                         </ul>
                     </li>
+
+                
                 </ul>
                 
         
                 </div>
               </div>
+              <article style="height:15px;"></article><!-- solo para dar espacio-->
             </nav>
 
-        </div>
+        
 
+        </div>

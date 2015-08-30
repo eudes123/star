@@ -17,7 +17,7 @@
                             <img src="img/1_logo.jpg" width="50%">
                             </div>
                             <div class="col-xs-5 col-sm-5 col-md-5">
-                            <a href="#" style="text-decoration:underline;"><br>modificar</a>
+                            <a href="gelmhh_imagen_corp_file.php" style="text-decoration:underline;"><br>modificar</a>
                             </div>
                             
                         </div>
@@ -35,7 +35,7 @@
                             <p><br><b>Eslogan: </b>N/A <br></p>
                             </div>
                             <div class="col-xs-5 col-sm-5 col-md-5">
-                            <a href="#" style="text-decoration:underline;"><br>modificar</a>
+                            <a href="gelthh_imagen_corp_eslogan.php" style="text-decoration:underline;"><br>modificar</a>
                             </div>
                         </div>
                         <div class="row">    
@@ -43,7 +43,7 @@
                             <p><br><b>Razón social: </b>Inversiones Bejarano S.A <br></p>
                             </div>
                             <div class="col-xs-5 col-sm-5 col-md-5">
-                            <a href="#" style="text-decoration:underline;"><br>modificar</a>
+                            <a href="gelvhh_imagen_corp_razon_social.php" style="text-decoration:underline;"><br>modificar</a>
                             </div>
                         </div>
                         <div class="row">    
@@ -51,7 +51,7 @@
                             <p><br><b>NIT: </b>900784542 - 7 <br></p>
                             </div>
                             <div class="col-xs-5 col-sm-5 col-md-5">
-                            <a href="#" style="text-decoration:underline;"><br>modificar</a>
+                            <a href="gelxhh_imagen_corp_nit.php" style="text-decoration:underline;"><br>modificar</a>
                             </div>
                         </div>
                         <div class="row">    
@@ -59,7 +59,7 @@
                             <p><br><b>Regimen: </b>Común <br></p>
                             </div>
                             <div class="col-xs-5 col-sm-5 col-md-5">
-                            <a href="#" style="text-decoration:underline;"><br>modificar</a>
+                            <a href="gelzhh_imagen_corp_regimen.php" style="text-decoration:underline;"><br>modificar</a>
                             </div>
                         </div>                                                                      
                         <br><br>

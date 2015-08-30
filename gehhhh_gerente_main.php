@@ -6,7 +6,7 @@
 
         <div class="col-xs-12 col-sm-8 col-md-8">
    
-            <br><br>
+            <article style="height:1px; float:none; clear:both;"></article> <!--solo para dar espacio -->
             <nav class="navbar navbar-default">
               <div class="container-fluid">
                 
@@ -20,9 +20,13 @@
                 </div>
                 
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav">
-                        <li><a href="gehhjh_gerente_main_establecer_rango_consulta.php">Establecer rango de la consulta</a></li>
-                    </ul>   
+                    <section class="col-xs-6 col-sm6 col-md-6">
+                            <ul class="nav navbar-nav">
+                                <li><a href="gehhjh_gerente_main_establecer_rango_consulta.php">Establecer rango de la consulta</a></li>
+                            </ul>
+                    </section>
+                            
+                    <section class="col-xs-6 col-sm6 col-md-6">
                             <div style="height:10px;"></div><!-- solo para dar espacio en google crome-->
                             <form action="" method="GET" class="navbar-form navbar-right" role="search">
                                 <div class="input-group">
@@ -32,11 +36,12 @@
                                     </div>
                                 </div>
                             </form>
+                    </section>        
                 </div>
               </div>
             </nav>
 
-                <br>
+                <article style="height:12px; float:none; clear:both;"></article> <!--solo para dar espacio -->
                 <table width=100% border='1' class="tabla_ventas">
                     <tr>
                         <td id="ordenar-por"><b>Factura</b></td>
