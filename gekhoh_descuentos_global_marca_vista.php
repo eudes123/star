@@ -4,8 +4,7 @@
     <div class="row">    
         <?php include ('gehghh_navegador.php'); ?>
 
-        <div class="col-xs-12 col-sm-8 col-md-8">
-        <article style="height:50px; float:none; clear:both;"></article>
+        <div class="col-xs-12 col-sm-8 col-md-8" style="margin-top:100px;">
                 <div class="row">
                     
                     
@@ -50,11 +49,7 @@
                     <tr>
                         <td class="cincuenta"><b>Marca</b></td>
                         <td class="cincuenta">Gucci</td>
-                    </tr>
-                    <tr>
-                        <td class="cincuenta"><b>Uso</b></td>
-                        <td class="cincuenta">Hombre</td>
-                    </tr>
+                    </tr>s
                     </table>
 
                     

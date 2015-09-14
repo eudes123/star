@@ -22,7 +22,7 @@
                         <form class="form-inline" role="form" method="GET" action="gelhhm_res_dian_numero_exito.php" id="bill">
                             <section class="col-xs-6 col-sm-6 col-md-6">
                                 <label class="input-group" for="dc">Res. DIAN número: </label>
-                                <input type="number" class="input-group" id="codPr">
+                                <input type="number" class="input-group" name="" id="codPr">
                             </section>
                             <section class="col-xs-6 col-sm-6 col-md-6">
                                 <button type="submit" class="btn btn-primary">Siguiente</button>

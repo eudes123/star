@@ -3,9 +3,8 @@
     <div class="row">    
         <?php include ('gehghh_navegador.php'); ?>
 
-        <div class="col-xs-12 col-sm-8 col-md-8">
+        <div class="col-xs-12 col-sm-8 col-md-8" style="margin-top:3px;">
             
-            <br><br><br>
 
             <div class="container-fluid" style="background-color:#d5d5d5; border-radius:10px;"> 
 

@@ -4,20 +4,20 @@
     <div class="row">    
         <?php include ('cahghh_navegador.php'); ?>
 
-        <div class="col-xs-12 col-sm-8 col-md-8">
+        <div class="col-xs-12 col-sm-8 col-md-8" style="margin-top:3px;">
 
 
 
 
-                <br><br>
+                
                 <div class="row" style="background-color:#CCCCCC;">
 
                     <form class="form-inline" role="form" name="formulario" method="GET" action="#" id="bill">
                     <div class="col-xs-6 col-sm-6 col-md-6 col-xs-offset-1 col-sm-offset-1 col-md-offset-1">                            
                             <div class="form-group datos_nueva_sucursal">
-                                <label for="codPr">Código de objeto:</label>
+                                <label for="codPr">Código de producto:</label>
                                 <br>
-                                <input type="text" class="form-control" name="desde" id="codPr">
+                                <input type="text" class="form-control" name="" id="codPr">
                             </div>
                     </div>
 

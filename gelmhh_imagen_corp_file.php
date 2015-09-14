@@ -22,7 +22,7 @@
                         <form class="form-inline" role="form" method="GET" action="gelnhh_imagen_corp_file_exito.php" id="bill">
                             <section class="col-xs-9 col-sm-9 col-md-9">
                                 <label class="input-group" for="dc">Logo <i>(formatos soportados JPEG - PNG - GIF):</i> </label>
-                                <input type="file" class="input-group">
+                                <input type="file" name="logoEmpresa" class="input-group">
                             </section>
                             <section class="col-xs-3 col-sm-3 col-md-3">
                                 <button type="submit" class="btn btn-primary">Siguiente</button>

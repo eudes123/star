@@ -3,7 +3,7 @@
     <div class="container">
     <div class="row">    
 
-        <div class="col-xs-12 col-sm-12 col-md-12 col-xs-offset-5 col-sm-offset-5 col-md-offset-5 ">
+        <div class="col-xs-12 col-sm-7 col-md-7 col-sm-offset-5 col-md-offset-5 ">
         <br><br><br><br>
                 <a href="gehhhh_gerente_main.php">Interfaz administrador</a>
                 <br><br>

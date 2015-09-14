@@ -18,7 +18,7 @@
                 <article style="height:8px;"></article><!-- solo para dar espacio-->
 
                 
-                    <li><b>Ventas</b>
+                    <li><b>VENTAS</b>
                         <ul>
                             <li><a href="cahhhh_cajero_main.php">Todas las ventas</a></li>
                             <li><a href="cahjhh_cajero_ventas_nueva_factura.php">Nueva Factura</a></li>
@@ -26,21 +26,29 @@
                     </li>
                     
                     <br>
-                    <li><b>Inventario</b>
+                    <li><b>INVENTARIO</b>
                         <ul>
                             <li><a href="cajhhh_inventario.php">Total Inventario</a></li>
                         </ul>
                     </li>
                     
                     <br>
-                    <li><b>Clientes</b>
+                    <li><b>CLIENTES</b>
                         <ul>
                             <li><a href="cakhhh_clientes.php">Clientes</a></li>
+                            <li><a href="cakihh_agregar_nuevo_cliente.php">Crear nuevo cliente</a></li>
                         </ul>
                     </li>
 
                     <br>
-                    <li><b>Salida segura</b>
+                    <li><b>CONFIGURACIÓN</b>
+                        <ul>
+                            <li><a href="caxxhh_configuracion_general.php">Configuración general</a></li>
+                        </ul>
+                    </li>
+
+                    <br>
+                    <li><b>SALIDA SEGURA</b>
                         <ul>
                             <li><a href="index.php">Salir</a></li>
                         </ul>

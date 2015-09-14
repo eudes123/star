@@ -10,11 +10,11 @@
                 <div class="row">
                     <div class="col-xs-8 col-sm-8 col-md-8 col-xs-offset-4 col-sm-offset-4 col-md-offset-4">   
                             
-                            <form class="form-inline" role="form" name="formulario" method="post" action="#">
+                            <form class="form-inline" role="form" name="formulario" method="GET" action="gehoim_agregar_nueva_sucursal_sucursal_creada.php">
                             <div class="form-group datos_nueva_sucursal">
                                    <label for="dy">Pa&iacute;s:</label>
                                    <br>
-                                   <select name="paisSuc" class="form-control" id="dy" style="width:195px;">
+                                   <select name="" class="form-control" id="dy" style="width:195px;">
                                        <option value="Colombia">Colombia</option>
                                    </select>
                             </div>
@@ -1104,27 +1104,27 @@
                             </div>
                             <br><br>                             
                             <div class="form-group datos_nueva_sucursal">
-                                <label for="dd">Barrio / zona:</label>
+                                <label for="dd">Nombre de la sucursal:</label>
                                 <br>
-                                <input type="text" class="form-control" name="desde" id="dd">
+                                <input type="text" class="form-control" name="" id="dd">
                             </div>
                             <br><br>
                             <div class="form-group datos_nueva_sucursal">
                                 <label for="dd">Direcci&oacute;n sucursal:</label>
                                 <br>
-                                <input type="text" class="form-control" name="desde" id="dd">
+                                <input type="text" class="form-control" name="" id="dd">
                             </div>
                             <br><br>
                             <div class="form-group datos_nueva_sucursal">
                                 <label for="dd">Tel&eacute;fono:</label>
                                 <br>
-                                <input type="text" class="form-control" name="desde" id="dd">
+                                <input type="text" class="form-control" name="" id="dd">
                             </div>
                             <br><br>
                             <div class="form-group datos_nueva_sucursal">
                                 <label for="dd">Email sucursal:</label>
                                 <br>
-                                <input type="email" class="form-control" name="desde" id="dd">
+                                <input type="email" class="form-control" name="" id="dd">
                             </div>
                             <div style="height:33px; float:none; clear:both;"></div>
                             <div>

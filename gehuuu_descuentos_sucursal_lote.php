@@ -14,7 +14,7 @@
                             <div class="form-group col-xs-6 col-sm-6 col-md-6">
                                    <label for="ci">Lote:</label>
                                    <br>
-                                   <select name="ciudad" class="form-control" id="ci" style="width:195px;">
+                                   <select name="ciudad" class="form-control" name="" id="ci" style="width:195px;">
                                        <option value="0"> N/A </option>
                                        <option value="1" >1414</option>
                                        <option value="1" >2115</option>

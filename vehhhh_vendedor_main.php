@@ -34,121 +34,96 @@
            
 
                 <br>
-                <table width=100% border='1' class="tabla_ventas">
-                    <tr>
-                        <td id="ordenar-por"><b>Articulo</b></td>
-                        <td id="ordenar-por"><b>Valor</b></td>
-                        <td id="ordenar-por"><b>Familia</b></td>
-                        <td id="ordenar-por"><b>Descripci&oacute;n</b></td>
-                        <td id="ordenar-por"><b>Ingreso</b></td>
-                        <td id="ordenar-por"><b>Vencimiento</b></td>
-                    </tr>
-                    <tr>
-                        <td id="ordenar-por"><a href="#">65452453934</a></td>
-                        <td>102.000</td>
-                        <td>Camisas Hombre</td>
-                        <td>Camisa Rose Pistol Manga corta</td>
-                        <td>Hoy</td>
-                        <td>N/A</td>
-                    </tr>
-                    <tr>
-                        <td id="ordenar-por"><a href="#">65452453933</a></td>
-                        <td>102.000</td>
-                        <td>Camisas Hombre</td>
-                        <td>Camisa Rose Pistol Manga corta</td>
-                        <td>Hoy</td>
-                        <td>N/A</td>
-                    </tr>
-                    <tr>
-                        <td id="ordenar-por"><a href="#">65452453932</a></td>
-                        <td>102.000</td>
-                        <td>Camisas Hombre</td>
-                        <td>Camisa Rose Pistol Manga corta</td>
-                        <td>Hoy</td>
-                        <td>N/A</td>
-                    </tr>
-                    <tr>
-                        <td id="ordenar-por"><a href="#">65452453931</a></td>
-                        <td>102.000</td>
-                        <td>Camisas Hombre</td>
-                        <td>Camisa Rose Pistol Manga corta</td>
-                        <td>Hoy</td>
-                        <td>N/A</td>
-                    </tr>
-                    <tr>
-                        <td id="ordenar-por"><a href="#">65452453930</a></td>
-                        <td>102.000</td>
-                        <td>Camisas Hombre</td>
-                        <td>Camisa Rose Pistol Manga corta</td>
-                        <td>Hoy</td>
-                        <td>N/A</td>
-                    </tr>
-                    <tr>
-                        <td id="ordenar-por"><a href="#">65452453929</a></td>
-                        <td>108.000</td>
-                        <td>Camisas Hombre</td>
-                        <td>Camisa luxury third manga larga</td>
-                        <td>ayer</td>
-                        <td>N/A</td>
-                    </tr>
-                    <tr>
-                        <td id="ordenar-por"><a href="#">65452453928</a></td>
-                        <td>108.000</td>
-                        <td>Camisas Hombre</td>
-                        <td>Camisa luxury third manga larga</td>
-                        <td>ayer</td>
-                        <td>N/A</td>
-                    </tr>
-                    <tr>
-                        <td id="ordenar-por"><a href="#">65452453927</a></td>
-                        <td>108.000</td>
-                        <td>Camisas Hombre</td>
-                        <td>Camisa luxury third manga larga</td>
-                        <td>ayer</td>
-                        <td>N/A</td>
-                    </tr>
-                    <tr>
-                        <td id="ordenar-por"><a href="#">65452453926</a></td>
-                        <td>108.000</td>
-                        <td>Camisas Hombre</td>
-                        <td>Camisa luxury third manga larga</td>
-                        <td>ayer</td>
-                        <td>N/A</td>
-                    </tr>
-                    <tr>
-                        <td id="ordenar-por"><a href="#">65452453925</a></td>
-                        <td>102.000</td>
-                        <td>Camisas Hombre</td>
-                        <td>Camisa luxury third manga larga</td>
-                        <td>ayer</td>
-                        <td>N/A</td>
-                    </tr>
-                    <tr>
-                        <td id="ordenar-por"><a href="#">65452453924</a></td>
-                        <td>108.000</td>
-                        <td>Camisas Hombre</td>
-                        <td>Camisa luxury third manga larga</td>
-                        <td>ayer</td>
-                        <td>N/A</td>
-                    </tr>
-                    <tr>
-                        <td id="ordenar-por"><a href="#">65452453923</a></td>
-                        <td>89.000</td>
-                        <td>Jeans Hombre</td>
-                        <td>Denim vintage spring-summer</td>
-                        <td>12-ago-2015</td>
-                        <td>N/A</td>
-                    </tr>
-                    <tr>
-                        <td id="ordenar-por"><a href="#">65452453922</a></td>
-                        <td>89.000</td>
-                        <td>Jeans Hombre</td>
-                        <td>Denim vintage spring-summer</td>
-                        <td>12-ago-2015</td>
-                        <td>N/A</td>
-                    </tr>
+                <div id="tablas">
+
+                <?php
+
+
+                if (!isset($_GET['seleccionada']))
+                    {
+                        $_GET['seleccionada']=1;
+                    }
+
+            
+                $ordenar=$_GET['seleccionada'];
+
                 
-                </table>
+                $d="ordenar-por";
+
+
+                $No=1;
+
+                $cant=100;
+
+                $cod=754631;
+
+                $example=25;
+
+                ?>
+
+
+
+                <table width=100% border="1" class="tabla_ventas">
+                     <tr> 
+                        <td><b>ID</b></td>
+                        <td id="ordenar-por"><b><form method="GET" action="#tablas"><input type="hidden" name="seleccionada" value="1"><input type="submit" style="border:0; background-color:rgba(235, 235, 235, 1);" value="ARTICULO"></form></b></td>
+                        <td id="ordenar-por"><b><form method="GET" action="#tablas"><input type="hidden" name="seleccionada" value="2"><input type="submit" style="border:0; background-color:rgba(235, 235, 235, 1);" value="PRECIO"></form></b></td>
+                        <td id="ordenar-por"><b><form method="GET" action="#tablas"><input type="hidden" name="seleccionada" value="3"><input type="submit" style="border:0; background-color:rgba(235, 235, 235, 1);" value="FAMILIA"></form></b></td>
+                        <td id="ordenar-por"><b><form method="GET" action="#tablas"><input type="hidden" name="seleccionada" value="4"><input type="submit" style="border:0; background-color:rgba(235, 235, 235, 1);" value="MARCA"></form></b></td>
+                        <td id="ordenar-por"><b><form method="GET" action="#tablas"><input type="hidden" name="seleccionada" value="5"><input type="submit" style="border:0; background-color:rgba(235, 235, 235, 1);" value="USO"></form></b></td>
+                        <td id="ordenar-por"><b><form method="GET" action="#tablas"><input type="hidden" name="seleccionada" value="6"><input type="submit" style="border:0; background-color:rgba(235, 235, 235, 1);" value="DESCRIP."></form></b></td>
+                        <td id="ordenar-por"><b><form method="GET" action="#tablas"><input type="hidden" name="seleccionada" value="7"><input type="submit" style="border:0; background-color:rgba(235, 235, 235, 1);" value="DCTO."></form></b></td>
+                        <td id="ordenar-por"><b><form method="GET" action="#tablas"><input type="hidden" name="seleccionada" value="8"><input type="submit" style="border:0; background-color:rgba(235, 235, 235, 1);" value="INGRESO"></form></b></td>
+                        <td id="ordenar-por"><b><form method="GET" action="#tablas"><input type="hidden" name="seleccionada" value="9"><input type="submit" style="border:0; background-color:rgba(235, 235, 235, 1);" value="VENC."></form></b></td>
+                     </tr>
+
+                
+
+
+
+                <?php
+
+
+                for($example=25; $example>0; $example--)
+                {   
+                    echo '<tr>';
+                    
+                    echo '<td>'.$No.'</td>';
+                    if($ordenar==1){$d="ordenar-por";} else {$d=$ordenar;}
+                    echo '<td id="'.$d.'">'.$cod.'</td>';
+                    if($ordenar==2){$d="ordenar-por";} else {$d=$ordenar;}
+                    echo '<td id="'.$d.'">'.'12.000'.'</td>';
+                    if($ordenar==3){$d="ordenar-por";} else {$d=$ordenar;}
+                    echo '<td id="'.$d.'">'.'zapatos'.'</td>';
+                    if($ordenar==4){$d="ordenar-por";} else {$d=$ordenar;}
+                    echo '<td id="'.$d.'">'.'Gucci'.'</td>';
+                    if($ordenar==5){$d="ordenar-por";} else {$d=$ordenar;}
+                    echo '<td id="'.$d.'">'.'hombre'.'</td>';
+                    if($ordenar==6){$d="ordenar-por";} else {$d=$ordenar;}
+                    echo '<td id="'.$d.'">'.'mocasines'.'</td>';
+                    if($ordenar==7){$d="ordenar-por";} else {$d=$ordenar;}
+                    echo '<td id="'.$d.'">'.'30%'.'</td>';
+                    if($ordenar==8){$d="ordenar-por";} else {$d=$ordenar;}
+                    echo '<td id="'.$d.'">'.'12 - jul 2015'.'</td>';
+                    if($ordenar==9){$d="ordenar-por";} else {$d=$ordenar;}
+                    echo '<td id="'.$d.'">'.'N/A'.'</td>';
+                    
+                    echo '</tr>';
+
+                    $No++;
+                    $cant--;
+                    $cod--;
+                }
+
+
+                echo '</table>';
+
+                ?>
+
+                </div><!-- el div del codigo php que esta despues del nav y el article -->
+
+
+
                 <div style="height:30px; float:none; clear:both;"></div>
                     <?php include('cahkhh_paginacion_cajero.php'); ?>
                     <div style="height:35px; float:none; clear:both;"></div>

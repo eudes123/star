@@ -12,14 +12,14 @@
                             
                         <form class="form-inline" role="form" name="formulario" method="GET" action="gekhsh_descuentos_global_descripcion_vista.php">
                             <div class="form-group col-xs-6 col-sm-6 col-md-6">
-                                   <label for="ci">Descripción:</label>
+                                   <label for="ci">Nombre:</label>
                                    <br>
-                                   <select name="ciudad" class="form-control" id="ci" style="width:195px;">
+                                   <select name="nombre" class="form-control" id="ci" style="width:195px;">
                                        <option value="0">-- Seleccionar --</option>
                                        <option value="1" >Casuales</option>
-                                       <option value="1" >Sports</option>
-                                       <option value="1" >Formales</option>
-                                       <option value="1" >Mocasines</option>
+                                       <option value="2" >Sports</option>
+                                       <option value="3" >Formales</option>
+                                       <option value="4" >Mocasines</option>
                                 </select>
                             </div>                             
                             <div class="col-xs-6 col-sm-5 col-md-4 col-sm-offset-1 col-md-offset-2">

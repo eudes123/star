@@ -6,8 +6,8 @@
 
         <div class="col-xs-12 col-sm-8 col-md-8">
             
-            <br><br><br>
-            <div class="container-fluid" style="background-color:#D5D5D5; border-radius:10px;"> 
+            
+            <div class="container-fluid" style="background-color:#D5D5D5; border-radius:10px; margin-top:5px;"> 
 
             <br><br><br><br><br>
                 <div class="row">

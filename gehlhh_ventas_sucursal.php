@@ -6,7 +6,7 @@
 
         <div class="col-xs-12 col-sm-8 col-md-8">
    
-            <br><br>
+            <article style="height:1px; float:none; clear:both;"></article> <!--solo para dar espacio -->
             <nav class="navbar navbar-default">
               <div class="container-fluid">
                 
@@ -34,7 +34,7 @@
                 <div class="col-xs-6 col-sm-6 col-md-6">
                             <form action="" method="GET" class="navbar-form navbar-right" role="search">
                                 <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="C&oacute;digo factura" id="query" name="query" value="">
+                                    <input type="text" class="form-control" placeholder="C&oacute;digo factura" id="query" name="" value="">
                                         <div class="input-group-btn">
                                     <button type="submit" class="btn btn-success"><span class="glyphicon glyphicon-search"></span></button>
                                     </div>
@@ -48,100 +48,89 @@
               </div>
             </nav>
 
-                <br>
-                <table width=100% border='1' class="tabla_ventas">
-                    <tr>
-                        <td id="ordenar-por"><b>Factura</b></td>
-                        <td id="ordenar-por"><b>Valor</b></td>
-                        <td id="ordenar-por"><b>Cliente</b></td>
-                        <td id="ordenar-por"><b>Fecha</b></td>
-                        <td><b>Hora</b></td>
-                    </tr>
-                    <tr>
-                        <td id="ordenar-por"><a href="#">65452</a></td>
-                        <td>102.000</td>
-                        <td>Maria Minaj Casianni</td>
-                        <td>Hoy</td>
-                        <td>06:18 pm</td>
-                    </tr>
-                    <tr>
-                        <td id="ordenar-por"><a href="#">65451</a></td>
-                        <td>102.000</td>
-                        <td>Maria Minaj Casianni</td>
-                        <td>Hoy</td>
-                        <td>04:16 pm</td>
-                    </tr>
-                    <tr>
-                        <td id="ordenar-por"><a href="#">65450</a></td>
-                        <td>102.000</td>
-                        <td>Maria Minaj Casianni</td>
-                        <td>Hoy</td>
-                        <td>01:43 pm</td>
-                    </tr>
-                    <tr>
-                        <td id="ordenar-por"><a href="#">65449</a></td>
-                        <td>102.000</td>
-                        <td>Maria Minaj Casianni</td>
-                        <td>Hoy</td>
-                        <td>11:24 am</td>
-                    </tr>
-                    <tr>
-                        <td id="ordenar-por"><a href="#">65448</a></td>
-                        <td>102.000</td>
-                        <td>Maria Minaj Casianni</td>
-                        <td>Hoy</td>
-                        <td>09:49 am</td>
-                    </tr>
-                    <tr>
-                        <td id="ordenar-por"><a href="#">65447</a></td>
-                        <td>102.000</td>
-                        <td>Maria Minaj Casianni</td>
-                        <td>ayer</td>
-                        <td>06:59 pm</td>
-                    </tr>
-                    <tr>
-                        <td id="ordenar-por"><a href="#">65446</a></td>
-                        <td>102.000</td>
-                        <td>Maria Minaj Casianni</td>
-                        <td>ayer</td>
-                        <td>06:45 pm</td>
-                    </tr>
-                    <tr>
-                        <td id="ordenar-por"><a href="#">65445</a></td>
-                        <td>102.000</td>
-                        <td>Maria Minaj Casianni</td>
-                        <td>ayer</td>
-                        <td>05:33 pm</td>
-                    </tr>
-                    <tr>
-                        <td id="ordenar-por"><a href="#">65444</a></td>
-                        <td>102.000</td>
-                        <td>Maria Minaj Casianni</td>
-                        <td>ayer</td>
-                        <td>11:56 am</td>
-                    </tr>
-                    <tr>
-                        <td id="ordenar-por"><a href="#">65443</a></td>
-                        <td>102.000</td>
-                        <td>Maria Minaj Casianni</td>
-                        <td>ayer</td>
-                        <td>10:11 am</td>
-                    </tr>
-                    <tr>
-                        <td id="ordenar-por"><a href="#">65441</a></td>
-                        <td>102.000</td>
-                        <td>Maria Minaj Casianni</td>
-                        <td>12-ago-2015</td>
-                        <td>07:57 pm</td>
-                    </tr>
-                    <tr>
-                        <td id="ordenar-por"><a href="#">65440</a></td>
-                        <td>102.000</td>
-                        <td>Maria Minaj Casianni</td>
-                        <td>12-ago-2015</td>
-                        <td>06:01 pm</td>
-                    </tr>
-                </table>
+                <article style="height:12px; float:none; clear:both;"></article> <!--solo para dar espacio -->
+               
+
+               <div id="tablas">
+
+
+
+ 
+                <?php
+
+
+                
+                if (!isset($_GET['factura']))
+                    {
+                        $_GET['factura']=1;
+                    }
+
+            
+                $ordenar=$_GET['factura'];
+
+                
+
+
+                $d="ordenar-por";
+
+
+                $col=1;
+                $codfact=65452;
+                $example=25;
+
+                ?>
+
+
+
+                
+
+                 <table width=100% border="1" class="tabla_ventas">
+                      <tr>
+                          <td><b>ID</b></td>
+                          <td id="ordenar-por"><b><form method="GET" action="#tablas"><input type="hidden" name="factura" value="1"><input type="submit" style="border:0; background-color:rgba(235, 235, 235, 1);" value="FACTURA"></form></b></td>
+                          <td id="ordenar-por"><b><form method="GET" action="#tablas"><input type="hidden" name="factura" value="2"><input type="submit" style="border:0; background-color:rgba(235, 235, 235, 1);" value="VALOR"></form></b></td>
+                          <td id="ordenar-por"><b><form method="GET" action="#tablas"><input type="hidden" name="factura" value="3"><input type="submit" style="border:0; background-color:rgba(235, 235, 235, 1);" value="CLIENTE"></form></b></td>
+                          <td id="ordenar-por"><b><form method="GET" action="#tablas"><input type="hidden" name="factura" value="4"><input type="submit" style="border:0; background-color:rgba(235, 235, 235, 1);" value="FECHA"></form></b></td>
+                          <td><b>Hora</b></td>
+                      </tr>
+                    
+
+
+
+                <?php
+
+                for($example=25; $example>0; $example--)
+                {   
+                    
+                    echo '<tr>';
+                    
+                    echo '<td>'.$col.'</td>';
+                    if($ordenar==1){$d="ordenar-por";} else {$d=$ordenar;}
+                    echo '<td id="'.$d.'"><a href="gehihh_ver_factura.php">'.$codfact.'</a></td>';
+                    if($ordenar==2){$d="ordenar-por";} else {$d=$ordenar;}
+                    echo '<td id="'.$d.'">'.'102.000'.'</td>';
+                    if($ordenar==3){$d="ordenar-por";} else {$d=$ordenar;}
+                    echo '<td id="'.$d.'">'.'Maria Minaj Cassiani'.'</td>';
+                    if($ordenar==4){$d="ordenar-por";} else {$d=$ordenar;}
+                    echo '<td id="'.$d.'">'.'Hoy'.'</td>';
+                    echo '<td>'.'6:18 pm'.'</td>';
+
+                    echo '</tr>';
+                    
+                    $col++;
+                    $codfact--;
+
+                }
+
+                echo '</table>';
+
+                ?>
+
+                </div><!-- el div del codigo php que esta despues del nav y el article -->
+
+
+
+                
                 <div style="height:30px; float:none; clear:both;"></div>
                     <?php include('cahkhh_paginacion_cajero.php'); ?>
                     <div style="height:35px; float:none; clear:both;"></div>

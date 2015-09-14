@@ -19,15 +19,15 @@
                 <article style="height:8px;"></article><!-- solo para dar espacio-->
                 
 
-                    <li><b>Inventario</b>
+                    <li><b>INVENTARIO</b>
                         <ul>
                             <li><a href="alhhhh_almacenista_main.php">Total Inventario</a></li>
-                            <li><a href="alhmhh_ingresar_mercancia.php">ingresar mercancia</a></li>
+                            <li><a href="alhmhh_ingresar_mercancia.php">Ingresar mercancia</a></li>
                         </ul>
                     </li>
 
                     <br>
-                    <li><b>Salida segura</b>
+                    <li><b>SALIDA SEGURA</b>
                         <ul>
                             <li><a href="index.php">Salir</a></li>
                         </ul>

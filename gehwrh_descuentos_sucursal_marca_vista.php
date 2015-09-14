@@ -4,8 +4,8 @@
     <div class="row">    
         <?php include ('gehghh_navegador.php'); ?>
 
-        <div class="col-xs-12 col-sm-7 col-md-7 col-sm-offset-1 col-md-offset-1">
-        <article style="height:110px; float:none; clear:both;"></article>
+        <div class="col-xs-12 col-sm-7 col-md-7 col-sm-offset-1 col-md-offset-1" style="margin-top:100px;">
+
                 <div class="row">
                     
                     

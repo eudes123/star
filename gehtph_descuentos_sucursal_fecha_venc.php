@@ -15,11 +15,11 @@
                         <div class="col-xs-12 col-sm-12 col-md-12">
                             <form class="form-inline" role="form" method="GET" action="gehtrh_descuentos_sucursal_fecha_venc_vista.php">
                             <div class="form-group col-xs-12 col-sm-6 col-md-6 col-sm-offset-1 col-md-offset-1">
-                                <label for="dd">Desde:</label>
+                                <label for="dd">Fecha de vencimiento desde:</label><br>
                                 <input type="date" class="form-control" name="desde" id="dd">
                             </div>
                             <div class="form-group col-xs-12 col-sm-5 col-md-5">
-                                <label for="ht">Hasta:</label>
+                                <label for="ht">Hasta:</label><br>
                                 <input type="date" class="form-control" name="hasta" id="ht">
                             </div>
                             <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>

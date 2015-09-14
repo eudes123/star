@@ -14,7 +14,7 @@
                             <div class="form-group col-xs-6 col-sm-6 col-md-6">
                                    <label for="ci">Descripción:</label>
                                    <br>
-                                   <select name="ciudad" class="form-control" id="ci" style="width:195px;">
+                                   <select name="ciudad" class="form-control" name="" id="ci" style="width:195px;">
                                        <option value="0">-- Seleccionar --</option>
                                        <option value="1" >Casuales</option>
                                        <option value="1" >Sports</option>

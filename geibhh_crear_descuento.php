@@ -22,7 +22,7 @@
                         <form class="form-inline" role="form" method="GET" action="geichh_crear_descuento_fijo_porcentaje.php" id="bill">
                             <section class="col-xs-6 col-sm-6 col-md-6">
                                 <label class="input-group" for="dc">Nombre del descuento</label>
-                                <input type="text" class="input-group" id="codPr">
+                                <input type="text" class="input-group" name="" id="codPr">
                             </section>
                             <section class="col-xs-6 col-sm-6 col-md-6">
                                 <button type="submit" class="btn btn-primary">Siguiente</button>

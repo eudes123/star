@@ -14,13 +14,13 @@
                             <div class="form-group col-xs-6 col-sm-6 col-md-6">
                                    <label for="ci">Familia:</label>
                                    <br>
-                                   <select name="ciudad" class="form-control" id="ci" style="width:195px;">
+                                   <select name="" class="form-control" id="ci" style="width:195px;">
                                        <option value="0">-- Seleccionar --</option>
                                        <option value="1" >Camisa</option>
-                                       <option value="1" >Pantalon</option>
-                                       <option value="1" >Short</option>
-                                       <option value="1" >Vestido</option>
-                                       <option value="1" >Zapatos</option>
+                                       <option value="2" >Pantalon</option>
+                                       <option value="3" >Short</option>
+                                       <option value="4" >Vestido</option>
+                                       <option value="5" >Zapatos</option>
                                 </select>
                             </div>                             
                             <div class="col-xs-6 col-sm-5 col-md-4 col-sm-offset-1 col-md-offset-2">

@@ -14,13 +14,13 @@
                             <div class="form-group col-xs-6 col-sm-6 col-md-6">
                                    <label for="ci">Size / Talla / Medida:</label>
                                    <br>
-                                   <select name="ciudad" class="form-control" id="ci" style="width:195px;">
+                                   <select name="size" class="form-control" id="ci" style="width:195px;">
                                        <option value="0">-- Seleccionar --</option>
                                        <option value="1" >36</option>
-                                       <option value="1" >38</option>
-                                       <option value="1" >40</option>
-                                       <option value="1" >42</option>
-                                       <option value="1" >44</option>
+                                       <option value="2" >38</option>
+                                       <option value="3" >40</option>
+                                       <option value="4" >42</option>
+                                       <option value="5" >44</option>
                                 </select>
                             </div>                             
                             <div class="col-xs-6 col-sm-5 col-md-4 col-sm-offset-1 col-md-offset-2">

@@ -7,9 +7,8 @@
         <div class="col-xs-12 col-sm-7 col-md-7 col-sm-offset-1 col-md-offset-1">
         <article style="height:150px; float:none; clear:both;"></article>
                 <div class="row">
-                    
-                    
-                     
+
+
 
                     <div class="col-xs-12 col-sm-12 col-md-12"> 
                     <table width=75% border='1' class="tabla_ventas">
@@ -30,6 +29,7 @@
                         <td>166</td>
                     </tr>
                     </table>
+
 
 
                     <article style="height:150px; float:none; clear:both;"></article>

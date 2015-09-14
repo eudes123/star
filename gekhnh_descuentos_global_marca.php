@@ -14,13 +14,13 @@
                             <div class="form-group col-xs-6 col-sm-6 col-md-6">
                                    <label for="ci">Marca:</label>
                                    <br>
-                                   <select name="ciudad" class="form-control" id="ci" style="width:195px;">
+                                   <select name="marca" class="form-control" id="ci" style="width:195px;">
                                        <option value="0">-- Seleccionar --</option>
                                        <option value="1" >Azaleia</option>
-                                       <option value="1" >Daffiti</option>
-                                       <option value="1" >Gucci</option>
-                                       <option value="1" >Nike</option>
-                                       <option value="1" >Santorini</option>
+                                       <option value="2" >Daffiti</option>
+                                       <option value="3" >Gucci</option>
+                                       <option value="4" >Nike</option>
+                                       <option value="5" >Santorini</option>
                                 </select>
                             </div>                             
                             <div class="col-xs-6 col-sm-5 col-md-4 col-sm-offset-1 col-md-offset-2">

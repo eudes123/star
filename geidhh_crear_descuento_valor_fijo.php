@@ -22,7 +22,7 @@
                         <form class="form-inline" role="form" method="GET" action="geifhh_crear_descuento_exito.php" id="bill">
                             <section class="col-xs-6 col-sm-6 col-md-6">
                                 <label class="input-group" for="dc">Valor</label>
-                                <input type="number" class="input-group" id="codPr" required>
+                                <input type="number" class="input-group" name="" id="codPr" required>
                             </section>
                             <section class="col-xs-6 col-sm-6 col-md-6">
                                 <button type="submit" class="btn btn-primary">Crear descuento</button>

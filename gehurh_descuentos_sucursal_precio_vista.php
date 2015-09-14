@@ -4,12 +4,11 @@
     <div class="row">    
         <?php include ('gehghh_navegador.php'); ?>
 
-        <div class="col-xs-12 col-sm-7 col-md-7 col-sm-offset-1 col-md-offset-1">
-        <article style="height:130px; float:none; clear:both;"></article>
+        <div class="col-xs-12 col-sm-7 col-md-7 col-sm-offset-1 col-md-offset-1" style="margin-top:100px;">
+
                 <div class="row">
-                    
-                    
-                     
+
+
 
                     <div class="col-xs-12 col-sm-12 col-md-12"> 
                     <table width=75% border='1' class="tabla_ventas">
@@ -28,7 +27,6 @@
 
 
                     <article style="height:150px; float:none; clear:both;"></article>
-
 
 
                     <div class="col-xs-12 col-sm-12 col-md-12">

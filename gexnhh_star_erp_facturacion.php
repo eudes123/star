@@ -4,11 +4,10 @@
     <div class="row">    
         <?php include ('gehghh_navegador.php'); ?>
 
-        <div class="col-xs-12 col-sm-8 col-md-8">
+        <div class="col-xs-12 col-sm-8 col-md-8" style="margin-top:10px;">
             
               <div class="container-fluid">
 
-                <br><br><br>
                 <h3>Facturas pendientes por pago:</h3>
                 <table width=100% border='1' class="tabla_ventas">
                     <tr>
@@ -17,7 +16,7 @@
                         <td><b>Valor</b></td>
                     </tr>
                     <tr>
-                        <td id="ordenar-por"><a href="adxnkh_star_erp_facturacion_facturas_pendientes.php">Agosto - 2015</a></td>
+                        <td id="ordenar-por">Agosto - 2015</td>
                         <td>13</td>
                         <td>260.000</td>
                     </tr>
@@ -32,27 +31,27 @@
                         <td><b>Valor</b></td>
                     </tr>
                     <tr>
-                        <td id="ordenar-por"><a href="adlnkh_star_erp_facturacion_facturas_pendientes.php">Agosto - 2015</a></td>
+                        <td id="ordenar-por">Agosto - 2015</td>
                         <td>13</td>
                         <td>260.000</td>
                     </tr>
                     <tr>
-                        <td id="ordenar-por"><a href="adlnkh_star_erp_facturacion_facturas_pendientes.php">Julio - 2015</a></td>
+                        <td id="ordenar-por">Julio - 2015</td>
                         <td>13</td>
                         <td>260.000</td>
                     </tr>
                     <tr>
-                        <td id="ordenar-por"><a href="adlnkh_star_erp_facturacion_facturas_pendientes.php">Julio - 2015</a></td>
+                        <td id="ordenar-por">Julio - 2015</td>
                         <td>7</td>
                         <td>140.000</td>
                     </tr>
                     <tr>
-                        <td id="ordenar-por"><a href="adlnkh_star_erp_facturacion_facturas_pendientes.php">Junio - 2015</a></td>
+                        <td id="ordenar-por">Junio - 2015</td>
                         <td>11</td>
                         <td>220.000</td>
                     </tr>
                     <tr>
-                        <td id="ordenar-por"><a href="adlnkh_star_erp_facturacion_facturas_pendientes.php">Mayo - 2015</a></td>
+                        <td id="ordenar-por">Mayo - 2015</td>
                         <td>11</td>
                         <td>220.000</td>
                     </tr>

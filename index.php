@@ -12,13 +12,13 @@
                           <br>
                           <div class="form-group">
                               <div class="input-group">
-                                  <input class="form-control" type="text" placeholder="usuario">
+                                  <input class="form-control" type="text" name="" placeholder="usuario">
                                   <span class="input-group-addon"><img src="img/user5.png" style="width:20px;"></span>
                               </div>
                           </div><br>
                           <div class="form-group">
                               <div class="input-group">
-                                  <input class="form-control" type="password" placeholder="contrase&ntilde;a">
+                                  <input class="form-control" type="password" name="" placeholder="contrase&ntilde;a">
                                   <span class="input-group-addon"><img src="img/key7.png" style="width:20px;"></span>
                               </div>
                           </div><br><br>
@@ -33,9 +33,9 @@
 
                 <section style="text-align:right;">
                     <button class="btn btn-info" >Registrarse</button>
-                    <br>
+                    
                 </section>
-                <br>
+                
             </div>    
         </div>  <!-- div columna central-->
 

@@ -22,7 +22,7 @@
                         <form class="form-inline" role="form" method="GET" action="gelhhs_res_dian_fecha_exito.php" id="bill">
                             <section class="col-xs-6 col-sm-6 col-md-6">
                                 <label class="input-group" for="dc">de (fecha): </label>
-                                <input type="date" class="input-group" id="codPr">
+                                <input type="date" class="input-group" name="" id="codPr">
                             </section>
                             <section class="col-xs-6 col-sm-6 col-md-6">
                                 <button type="submit" class="btn btn-primary">Siguiente</button>

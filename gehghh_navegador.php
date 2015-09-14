@@ -16,31 +16,6 @@
                 <ul class="nav navbar-nav">
                         
                 <article style="height:8px;"></article><!-- solo para dar espacio-->
-                <li><b>SUCURSALES</b>
-                    <ul>
-                        <li>Sucursal Bogot&aacute; Chapinero
-                            <ul>
-                                <li><a href="gehlhh_ventas_sucursal.php">Ventas</a></li>
-                                <li><a href="gehmhh_inventario_sucursal.php">Inventario</a></li>
-                                <li><a href="gehnfh_articulos_mas_vendidos_sucursales.php">Articulos Mas Vendidos</a></li>
-                                <li><a href="gehnph_articulos_menos_vendidos_sucursales.php">Articulos Menos vendidos</a></li>
-                                <li><a href="gehsph_descuentos_sucursal.php">Descuentos sucursal</a></li>
-                            </ul>
-                        </li>
-                        <li>Sucursal Cartagena Boca Grande
-                            <ul>
-                                <li><a href="gehlhh_ventas_sucursal.php">Ventas</a></li>
-                                <li><a href="gehmhh_inventario_sucursal.php">Inventario</a></li>
-                                <li><a href="gehnfh_articulos_mas_vendidos_sucursales.php">Articulos Mas Vendidos</a></li>
-                                <li><a href="gehnph_articulos_menos_vendidos_sucursales.php">Articulos Menos vendidos</a></li>
-                                <li><a href="gehsph_descuentos_sucursal.php">Descuentos sucursal</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="gehohh_agregar_nueva_sucursal.php"><b><i>Agregar nueva sucursal</i></b></a></li>
-                    </ul>
-                </li>
-                
-                <br>
                 <li><b>VENTAS</b>
                     <ul>
                         <li><a href="gehhhh_gerente_main.php">Todas las ventas</a></li>
@@ -63,6 +38,32 @@
                 </li>
                 
                 <br>
+                <li><b>SUCURSALES</b>
+                    <ul>
+                        <li>Sucursal Bogot&aacute; Chapinero
+                            <ul>
+                                <li><a href="gehlhh_ventas_sucursal.php">Ventas</a></li>
+                                <li><a href="gehmhh_inventario_sucursal.php">Inventario</a></li>
+                                <li><a href="gehnfh_articulos_mas_vendidos_sucursales.php">Articulos Mas Vendidos</a></li>
+                                <li><a href="gehnph_articulos_menos_vendidos_sucursales.php">Articulos Menos vendidos</a></li>
+                                <li><a href="gehsph_descuentos_sucursal.php">Descuentos sucursal</a></li>
+                                <li><a href="geihxx_configuracion_sucursales_bogota.php">Configuración</a></li>
+                            </ul>
+                        </li>
+                        <li>Sucursal Cartagena Boca Grande
+                            <ul>
+                                <li><a href="gehlhh_ventas_sucursal.php">Ventas</a></li>
+                                <li><a href="gehmhh_inventario_sucursal.php">Inventario</a></li>
+                                <li><a href="gehnfh_articulos_mas_vendidos_sucursales.php">Articulos Mas Vendidos</a></li>
+                                <li><a href="gehnph_articulos_menos_vendidos_sucursales.php">Articulos Menos vendidos</a></li>
+                                <li><a href="gehsph_descuentos_sucursal.php">Descuentos sucursal</a></li>
+                                <li><a href="geihxy_configuracion_sucursales_cartagena.php">Configuración</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="gehohh_agregar_nueva_sucursal.php"><b><i>Agregar nueva sucursal</i></b></a></li>
+                    </ul>
+                </li>
+                <br>
                 <li><b>LEGAL Y TRIBUTARIO</b>
                     <ul>
                         <li><a href="gelhhh_res_dian.php">Res. DIAN</a></li>
@@ -79,8 +80,9 @@
                 <br>
                 <li><b>STAR E.R.P</b>
                     <ul>
+                        <li><a href="gexhhh_comprar_usuarios.php">Comprar usuarios</a></li>
                         <li><a href="gexlhh_star_erp_usuarios_contratados.php">Usuarios contratados</a></li>
-                        <li><a href="gexnhh_star_erp_facturacion.php">Facturación</a></li>
+                        <li><a href="gexnhh_star_erp_facturacion.php">Pagos</a></li>
                     </ul>
                 </li>
 
